@@ -1,0 +1,46 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1519" measuredH="817" mockupW="1366" mockupH="768">
+  <controls>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="153" y="49" w="1366" h="768" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>A%20Web%20Page%0Ahttp%3A//www.e-valimised.ee</text>
+      </controlProperties>
+    </control>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::ButtonBar" x="285" y="260" w="417" h="46" measuredW="240" measuredH="27" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <hrefs>kodu%26bm%3Bkodu.bmml%26bm%3Bkodu.bmml%26bm%3Bkodu.bmml%2Ckandidaadid%26bm%3Bkandidaadid.bmml%26bm%3Bkandidaadid.bmml%26bm%3Bkandidaadid.bmml%2C</hrefs>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22132%2C211%2C225%2C257%22%20href%3D%22kodu.bmml%22%20alt%3D%22kodu%22%20id%3D%223%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%22225%2C211%2C395%2C257%22%20href%3D%22kandidaadid.bmml%22%20alt%3D%22kandidaadid%22%20id%3D%223%22/%3E%0A</map>
+        <text>Kodu%2C%20Kandidaadid%2C%20Tulemused</text>
+      </controlProperties>
+    </control>
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::IconLabel" x="285" y="159" w="230" h="-1" measuredW="162" measuredH="78" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>false</bold>
+        <borderStyle>none</borderStyle>
+        <color>472931</color>
+        <icon>LinkGlobeIcon%7Clarge</icon>
+        <labelPosition>bottom</labelPosition>
+        <size>28</size>
+        <text>E%20-%20valimised</text>
+      </controlProperties>
+    </control>
+    <control controlID="9" controlTypeID="com.balsamiq.mockups::TextInput" x="1153" y="270" w="128" h="-1" measuredW="79" measuredH="26" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="11" controlTypeID="com.balsamiq.mockups::Button" x="1296" y="270" w="-1" h="-1" measuredW="47" measuredH="27" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Otsi</text>
+      </controlProperties>
+    </control>
+    <control controlID="12" controlTypeID="com.balsamiq.mockups::Button" x="1234" y="210" w="-1" h="-1" measuredW="109" measuredH="27" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>10470904</color>
+        <href>sisselogimine%26bm%3Bsisselogimine.bmml%26bm%3Bsisselogimine.bmml%26bm%3Bsisselogimine.bmml</href>
+        <icon>UserIcon%7Csmall</icon>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%221081%2C161%2C1190%2C188%22%20href%3D%22sisselogimine.bmml%22%20alt%3D%22sisselogimine%22%20id%3D%2212%22/%3E</map>
+        <text>Logi%20sisse</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
