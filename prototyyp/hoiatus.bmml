@@ -5,11 +5,12 @@
         <text>A%20Web%20Page%0Ahttp%3A//www.e-valimised.ee</text>
       </controlProperties>
     </control>
-    <control controlID="3" controlTypeID="com.balsamiq.mockups::ButtonBar" x="285" y="260" w="417" h="46" measuredW="240" measuredH="27" zOrder="1" locked="false" isInGroup="-1">
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::ButtonBar" x="285" y="260" w="417" h="46" measuredW="328" measuredH="27" zOrder="1" locked="false" isInGroup="-1">
       <controlProperties>
-        <hrefs>sisselogitud%26bm%3Bsisselogitud.bmml%26bm%3Bsisselogitud.bmml%26bm%3Bsisselogitud.bmml%2Ckandidaadid_sisselogitult%26bm%3Bkandidaadid_sisselogitult.bmml%26bm%3Bkandidaadid_sisselogitult.bmml%26bm%3Bkandidaadid_sisselogitult.bmml%2Ch%E4%E4letatud%26bm%3Bh%E4%E4letatud.bmml%26bm%3Bh%E4%E4letatud.bmml%26bm%3Bh%E4%E4letatud.bmml</hrefs>
-        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22132%2C211%2C225%2C257%22%20href%3D%22sisselogitud.bmml%22%20alt%3D%22sisselogitud%22%20id%3D%223%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%22225%2C211%2C395%2C257%22%20href%3D%22kandidaadid_sisselogitult.bmml%22%20alt%3D%22kandidaadid_sisselogitult%22%20id%3D%223%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%22395%2C211%2C547%2C257%22%20href%3D%22h%25C3%25A4%25C3%25A4letatud.bmml%22%20alt%3D%22h%E4%E4letatud%22%20id%3D%223%22/%3E%0A</map>
-        <text>Kodu%2C%20Kandidaadid%2C%20Tulemused</text>
+        <hrefs>sisselogitud%26bm%3Bsisselogitud.bmml%26bm%3Bsisselogitud.bmml%26bm%3Bsisselogitud.bmml%2Ckandidaadid_sisselogitult%26bm%3Bkandidaadid_sisselogitult.bmml%26bm%3Bkandidaadid_sisselogitult.bmml%26bm%3Bkandidaadid_sisselogitult.bmml%2Ch%E4%E4letatud%26bm%3Bh%E4%E4letatud.bmml%26bm%3Bh%E4%E4letatud.bmml%26bm%3Bh%E4%E4letatud.bmml%2C</hrefs>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22132%2C211%2C200%2C257%22%20href%3D%22sisselogitud.bmml%22%20alt%3D%22sisselogitud%22%20id%3D%223%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%22200%2C211%2C324%2C257%22%20href%3D%22kandidaadid_sisselogitult.bmml%22%20alt%3D%22kandidaadid_sisselogitult%22%20id%3D%223%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%22324%2C211%2C435%2C257%22%20href%3D%22h%25C3%25A4%25C3%25A4letatud.bmml%22%20alt%3D%22h%E4%E4letatud%22%20id%3D%223%22/%3E%0A</map>
+        <selectedIndex>1</selectedIndex>
+        <text>Kodu%2C%20Kandidaadid%2C%20Tulemused%2C%20Kandideeri</text>
       </controlProperties>
     </control>
     <control controlID="5" controlTypeID="com.balsamiq.mockups::IconLabel" x="285" y="159" w="230" h="-1" measuredW="162" measuredH="78" zOrder="2" locked="false" isInGroup="-1">
@@ -23,17 +24,7 @@
         <text>E%20-%20valimised</text>
       </controlProperties>
     </control>
-    <control controlID="9" controlTypeID="com.balsamiq.mockups::TextInput" x="1153" y="270" w="128" h="-1" measuredW="79" measuredH="26" zOrder="3" locked="false" isInGroup="-1">
-      <controlProperties>
-        <text/>
-      </controlProperties>
-    </control>
-    <control controlID="11" controlTypeID="com.balsamiq.mockups::Button" x="1296" y="270" w="-1" h="-1" measuredW="47" measuredH="27" zOrder="4" locked="false" isInGroup="-1">
-      <controlProperties>
-        <text>Otsi</text>
-      </controlProperties>
-    </control>
-    <control controlID="26" controlTypeID="com.balsamiq.mockups::Button" x="1234" y="210" w="-1" h="-1" measuredW="105" measuredH="27" zOrder="5" locked="false" isInGroup="-1">
+    <control controlID="26" controlTypeID="com.balsamiq.mockups::Button" x="1234" y="210" w="-1" h="-1" measuredW="105" measuredH="27" zOrder="3" locked="false" isInGroup="-1">
       <controlProperties>
         <color>13369344</color>
         <href>kodu%26bm%3Bkodu.bmml%26bm%3Bkodu.bmml%26bm%3Bkodu.bmml</href>
@@ -42,16 +33,104 @@
         <text>Logi%20v%E4lja</text>
       </controlProperties>
     </control>
-    <control controlID="27" controlTypeID="com.balsamiq.mockups::Label" x="1130" y="213" w="-1" h="-1" measuredW="89" measuredH="21" zOrder="6" locked="false" isInGroup="-1">
+    <control controlID="27" controlTypeID="com.balsamiq.mockups::Label" x="1130" y="213" w="-1" h="-1" measuredW="89" measuredH="21" zOrder="4" locked="false" isInGroup="-1">
       <controlProperties>
         <text>Juhan%20Juurikas</text>
       </controlProperties>
     </control>
-    <control controlID="28" controlTypeID="com.balsamiq.mockups::Alert" x="693" y="400" w="-1" h="-1" measuredW="200" measuredH="149" zOrder="7" locked="false" isInGroup="-1">
+    <control controlID="28" controlTypeID="com.balsamiq.mockups::Alert" x="1034" y="489" w="-1" h="-1" measuredW="200" measuredH="133" zOrder="19" locked="false" isInGroup="-1">
       <controlProperties>
         <hrefs>nimekiri_sisselogitult%26bm%3Bnimekiri_sisselogitult.bmml%26bm%3Bnimekiri_sisselogitult.bmml%26bm%3Bnimekiri_sisselogitult.bmml%2Ch%E4%E4letatud%26bm%3Bh%E4%E4letatud.bmml%26bm%3Bh%E4%E4letatud.bmml%26bm%3Bh%E4%E4letatud.bmml</hrefs>
-        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22550%2C450%2C635%2C490%22%20href%3D%22nimekiri_sisselogitult.bmml%22%20alt%3D%22nimekiri_sisselogitult%22%20id%3D%2228%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%22645%2C450%2C730%2C490%22%20href%3D%22h%25C3%25A4%25C3%25A4letatud.bmml%22%20alt%3D%22h%E4%E4letatud%22%20id%3D%2228%22/%3E%0A</map>
-        <text>Hoiatus%21%0AKas%20sa%20oled%20kindel%2C%20et%20soovid%20valitud%20kandidaadile%20h%E4%E4le%20anda%3F%0AEi%2C%20Jah</text>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22891%2C523%2C976%2C563%22%20href%3D%22nimekiri_sisselogitult.bmml%22%20alt%3D%22nimekiri_sisselogitult%22%20id%3D%2228%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%22986%2C523%2C1071%2C563%22%20href%3D%22h%25C3%25A4%25C3%25A4letatud.bmml%22%20alt%3D%22h%E4%E4letatud%22%20id%3D%2228%22/%3E%0A</map>
+        <text>Kinnitus%0AOled%20kindel%2C%20et%20soovid%20h%E4%E4letada%20Mari%20Maasika%20poolt%3F%0AEi%2C%20Jah</text>
+      </controlProperties>
+    </control>
+    <control controlID="29" controlTypeID="com.balsamiq.mockups::TextInput" x="268" y="374" w="214" h="-1" measuredW="79" measuredH="26" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="30" controlTypeID="com.balsamiq.mockups::List" x="633" y="414" w="258" h="379" measuredW="100" measuredH="375" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <alternateRowColor>16777215</alternateRowColor>
+        <color>15134199</color>
+        <hrefs>ringkonnad_sisselogitult%26bm%3Bringkonnad_sisselogitult.bmml%26bm%3Bringkonnad_sisselogitult.bmml%26bm%3Bringkonnad_sisselogitult.bmml%2Cringkonnad_sisselogitult%26bm%3Bringkonnad_sisselogitult.bmml%26bm%3Bringkonnad_sisselogitult.bmml%26bm%3Bringkonnad_sisselogitult.bmml%2Cringkonnad_sisselogitult%26bm%3Bringkonnad_sisselogitult.bmml%26bm%3Bringkonnad_sisselogitult.bmml%26bm%3Bringkonnad_sisselogitult.bmml%2Cringkonnad_sisselogitult%26bm%3Bringkonnad_sisselogitult.bmml%26bm%3Bringkonnad_sisselogitult.bmml%26bm%3Bringkonnad_sisselogitult.bmml%2Cringkonnad_sisselogitult%26bm%3Bringkonnad_sisselogitult.bmml%26bm%3Bringkonnad_sisselogitult.bmml%26bm%3Bringkonnad_sisselogitult.bmml%2Cringkonnad_sisselogitult%26bm%3Bringkonnad_sisselogitult.bmml%26bm%3Bringkonnad_sisselogitult.bmml%26bm%3Bringkonnad_sisselogitult.bmml%2Cringkonnad_sisselogitult%26bm%3Bringkonnad_sisselogitult.bmml%26bm%3Bringkonnad_sisselogitult.bmml%26bm%3Bringkonnad_sisselogitult.bmml%2Cringkonnad_sisselogitult%26bm%3Bringkonnad_sisselogitult.bmml%26bm%3Bringkonnad_sisselogitult.bmml%26bm%3Bringkonnad_sisselogitult.bmml%2Cringkonnad_sisselogitult%26bm%3Bringkonnad_sisselogitult.bmml%26bm%3Bringkonnad_sisselogitult.bmml%26bm%3Bringkonnad_sisselogitult.bmml</hrefs>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22480%2C368%2C738%2C409%22%20href%3D%22ringkonnad_sisselogitult.bmml%22%20alt%3D%22ringkonnad_sisselogitult%22%20id%3D%2230%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%22480%2C409%2C738%2C450%22%20href%3D%22ringkonnad_sisselogitult.bmml%22%20alt%3D%22ringkonnad_sisselogitult%22%20id%3D%2230%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%22480%2C450%2C738%2C491%22%20href%3D%22ringkonnad_sisselogitult.bmml%22%20alt%3D%22ringkonnad_sisselogitult%22%20id%3D%2230%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%22480%2C491%2C738%2C532%22%20href%3D%22ringkonnad_sisselogitult.bmml%22%20alt%3D%22ringkonnad_sisselogitult%22%20id%3D%2230%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%22480%2C532%2C738%2C573%22%20href%3D%22ringkonnad_sisselogitult.bmml%22%20alt%3D%22ringkonnad_sisselogitult%22%20id%3D%2230%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%22480%2C573%2C738%2C614%22%20href%3D%22ringkonnad_sisselogitult.bmml%22%20alt%3D%22ringkonnad_sisselogitult%22%20id%3D%2230%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%22480%2C614%2C738%2C655%22%20href%3D%22ringkonnad_sisselogitult.bmml%22%20alt%3D%22ringkonnad_sisselogitult%22%20id%3D%2230%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%22480%2C655%2C738%2C696%22%20href%3D%22ringkonnad_sisselogitult.bmml%22%20alt%3D%22ringkonnad_sisselogitult%22%20id%3D%2230%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%22480%2C696%2C738%2C737%22%20href%3D%22ringkonnad_sisselogitult.bmml%22%20alt%3D%22ringkonnad_sisselogitult%22%20id%3D%2230%22/%3E%0A</map>
+        <rowHeight>41</rowHeight>
+        <text>Erakond%20Eestimaa%20Rohelised%0AErakond%20Isamaa%20ja%20Res%20Publica%20Liit%0ASotsiaaldemokraatlik%20Erakond%0AEesti%20Reformierakond%0AEesti%20Keskerakond%0AVene%20Erakond%20Eestis%0AEesti%20Iseseisvuspartei%0AEestimaa%20Rahvaliit%0AErakond%20Eesti%20Kristlikud%20Demokraadid</text>
+      </controlProperties>
+    </control>
+    <control controlID="31" controlTypeID="com.balsamiq.mockups::Label" x="713" y="350" w="-1" h="-1" measuredW="98" measuredH="24" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>ERAKONNAD</text>
+      </controlProperties>
+    </control>
+    <control controlID="32" controlTypeID="com.balsamiq.mockups::List" x="268" y="407" w="221" h="379" measuredW="100" measuredH="354" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>15134199</color>
+        <hrefs>nimekiri_sisselogitult%26bm%3Bnimekiri_sisselogitult.bmml%26bm%3Bnimekiri_sisselogitult.bmml%26bm%3Bnimekiri_sisselogitult.bmml%2Cnimekiri_sisselogitult%26bm%3Bnimekiri_sisselogitult.bmml%26bm%3Bnimekiri_sisselogitult.bmml%26bm%3Bnimekiri_sisselogitult.bmml%2Cnimekiri_sisselogitult%26bm%3Bnimekiri_sisselogitult.bmml%26bm%3Bnimekiri_sisselogitult.bmml%26bm%3Bnimekiri_sisselogitult.bmml%2Cnimekiri_sisselogitult%26bm%3Bnimekiri_sisselogitult.bmml%26bm%3Bnimekiri_sisselogitult.bmml%26bm%3Bnimekiri_sisselogitult.bmml%2Cnimekiri_sisselogitult%26bm%3Bnimekiri_sisselogitult.bmml%26bm%3Bnimekiri_sisselogitult.bmml%26bm%3Bnimekiri_sisselogitult.bmml%2Cnimekiri_sisselogitult%26bm%3Bnimekiri_sisselogitult.bmml%26bm%3Bnimekiri_sisselogitult.bmml%26bm%3Bnimekiri_sisselogitult.bmml%2Cnimekiri_sisselogitult%26bm%3Bnimekiri_sisselogitult.bmml%26bm%3Bnimekiri_sisselogitult.bmml%26bm%3Bnimekiri_sisselogitult.bmml%2Cnimekiri_sisselogitult%26bm%3Bnimekiri_sisselogitult.bmml%26bm%3Bnimekiri_sisselogitult.bmml%26bm%3Bnimekiri_sisselogitult.bmml%2Cnimekiri_sisselogitult%26bm%3Bnimekiri_sisselogitult.bmml%26bm%3Bnimekiri_sisselogitult.bmml%26bm%3Bnimekiri_sisselogitult.bmml%2Cnimekiri_sisselogitult%26bm%3Bnimekiri_sisselogitult.bmml%26bm%3Bnimekiri_sisselogitult.bmml%26bm%3Bnimekiri_sisselogitult.bmml%2Cnimekiri_sisselogitult%26bm%3Bnimekiri_sisselogitult.bmml%26bm%3Bnimekiri_sisselogitult.bmml%26bm%3Bnimekiri_sisselogitult.bmml%2Cnimekiri_sisselogitult%26bm%3Bnimekiri_sisselogitult.bmml%26bm%3Bnimekiri_sisselogitult.bmml%26bm%3Bnimekiri_sisselogitult.bmml</hrefs>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22115%2C361%2C336%2C390%22%20href%3D%22nimekiri_sisselogitult.bmml%22%20alt%3D%22nimekiri_sisselogitult%22%20id%3D%2232%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%22115%2C390%2C336%2C419%22%20href%3D%22nimekiri_sisselogitult.bmml%22%20alt%3D%22nimekiri_sisselogitult%22%20id%3D%2232%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%22115%2C419%2C336%2C448%22%20href%3D%22nimekiri_sisselogitult.bmml%22%20alt%3D%22nimekiri_sisselogitult%22%20id%3D%2232%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%22115%2C448%2C336%2C477%22%20href%3D%22nimekiri_sisselogitult.bmml%22%20alt%3D%22nimekiri_sisselogitult%22%20id%3D%2232%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%22115%2C477%2C336%2C506%22%20href%3D%22nimekiri_sisselogitult.bmml%22%20alt%3D%22nimekiri_sisselogitult%22%20id%3D%2232%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%22115%2C506%2C336%2C535%22%20href%3D%22nimekiri_sisselogitult.bmml%22%20alt%3D%22nimekiri_sisselogitult%22%20id%3D%2232%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%22115%2C535%2C336%2C564%22%20href%3D%22nimekiri_sisselogitult.bmml%22%20alt%3D%22nimekiri_sisselogitult%22%20id%3D%2232%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%22115%2C564%2C336%2C593%22%20href%3D%22nimekiri_sisselogitult.bmml%22%20alt%3D%22nimekiri_sisselogitult%22%20id%3D%2232%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%22115%2C593%2C336%2C622%22%20href%3D%22nimekiri_sisselogitult.bmml%22%20alt%3D%22nimekiri_sisselogitult%22%20id%3D%2232%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%22115%2C622%2C336%2C651%22%20href%3D%22nimekiri_sisselogitult.bmml%22%20alt%3D%22nimekiri_sisselogitult%22%20id%3D%2232%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%22115%2C651%2C336%2C680%22%20href%3D%22nimekiri_sisselogitult.bmml%22%20alt%3D%22nimekiri_sisselogitult%22%20id%3D%2232%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%22115%2C680%2C336%2C709%22%20href%3D%22nimekiri_sisselogitult.bmml%22%20alt%3D%22nimekiri_sisselogitult%22%20id%3D%2232%22/%3E%0A</map>
+        <rowHeight>29</rowHeight>
+        <text>Haabersti%20%2C%20Kristiine%2C%20P%F5hja-Tallinn%0AKesklinn%2C%20Lasnam%E4e%2C%20Pirita%0AMustam%E4e%2C%20N%F5mme%0AHarju%2C%20Rapla%0AHiiu%2C%20L%E4%E4ne%2C%20Saare%0AL%E4%E4ne-Viru%0AIda-Viru%0AJ%E4rva%2C%20Viljandi%0AJ%F5geva%2C%20Tartu%0ATartu%20linn%0AV%F5ru%2C%20Valga%2C%20P%F5lva%0AP%E4rnu</text>
+      </controlProperties>
+    </control>
+    <control controlID="33" controlTypeID="com.balsamiq.mockups::Label" x="301" y="334" w="-1" h="-1" measuredW="105" measuredH="24" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>RINGKONNAD</text>
+      </controlProperties>
+    </control>
+    <control controlID="34" controlTypeID="com.balsamiq.mockups::Icon" x="522" y="463" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
+        <icon>RightArrowIcon%7Clarge</icon>
+      </controlProperties>
+    </control>
+    <control controlID="35" controlTypeID="com.balsamiq.mockups::Icon" x="926" y="539" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
+        <icon>RightArrowIcon%7Clarge</icon>
+      </controlProperties>
+    </control>
+    <control controlID="36" controlTypeID="com.balsamiq.mockups::Label" x="1056" y="334" w="-1" h="-1" measuredW="72" measuredH="24" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>NIMEKIRI</text>
+      </controlProperties>
+    </control>
+    <control controlID="37" controlTypeID="com.balsamiq.mockups::List" x="1022" y="400" w="173" h="379" measuredW="100" measuredH="376" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>15134199</color>
+        <hrefs>hoiatus%26bm%3Bhoiatus.bmml%26bm%3Bhoiatus.bmml%26bm%3Bhoiatus.bmml%2Choiatus%26bm%3Bhoiatus.bmml%26bm%3Bhoiatus.bmml%26bm%3Bhoiatus.bmml%2Choiatus%26bm%3Bhoiatus.bmml%26bm%3Bhoiatus.bmml%26bm%3Bhoiatus.bmml%2Choiatus%26bm%3Bhoiatus.bmml%26bm%3Bhoiatus.bmml%26bm%3Bhoiatus.bmml%2Choiatus%26bm%3Bhoiatus.bmml%26bm%3Bhoiatus.bmml%26bm%3Bhoiatus.bmml%2Choiatus%26bm%3Bhoiatus.bmml%26bm%3Bhoiatus.bmml%26bm%3Bhoiatus.bmml%2Choiatus%26bm%3Bhoiatus.bmml%26bm%3Bhoiatus.bmml%26bm%3Bhoiatus.bmml%2Choiatus%26bm%3Bhoiatus.bmml%26bm%3Bhoiatus.bmml%26bm%3Bhoiatus.bmml%2Choiatus%26bm%3Bhoiatus.bmml%26bm%3Bhoiatus.bmml%26bm%3Bhoiatus.bmml%2Choiatus%26bm%3Bhoiatus.bmml%26bm%3Bhoiatus.bmml%26bm%3Bhoiatus.bmml</hrefs>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22869%2C354%2C1042%2C391%22%20href%3D%22hoiatus.bmml%22%20alt%3D%22hoiatus%22%20id%3D%2237%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%22869%2C391%2C1042%2C428%22%20href%3D%22hoiatus.bmml%22%20alt%3D%22hoiatus%22%20id%3D%2237%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%22869%2C428%2C1042%2C465%22%20href%3D%22hoiatus.bmml%22%20alt%3D%22hoiatus%22%20id%3D%2237%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%22869%2C465%2C1042%2C502%22%20href%3D%22hoiatus.bmml%22%20alt%3D%22hoiatus%22%20id%3D%2237%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%22869%2C502%2C1042%2C539%22%20href%3D%22hoiatus.bmml%22%20alt%3D%22hoiatus%22%20id%3D%2237%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%22869%2C539%2C1042%2C576%22%20href%3D%22hoiatus.bmml%22%20alt%3D%22hoiatus%22%20id%3D%2237%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%22869%2C576%2C1042%2C613%22%20href%3D%22hoiatus.bmml%22%20alt%3D%22hoiatus%22%20id%3D%2237%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%22869%2C613%2C1042%2C650%22%20href%3D%22hoiatus.bmml%22%20alt%3D%22hoiatus%22%20id%3D%2237%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%22869%2C650%2C1042%2C687%22%20href%3D%22hoiatus.bmml%22%20alt%3D%22hoiatus%22%20id%3D%2237%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%22869%2C687%2C1042%2C724%22%20href%3D%22hoiatus.bmml%22%20alt%3D%22hoiatus%22%20id%3D%2237%22/%3E%0A</map>
+        <rowHeight>37</rowHeight>
+        <text>1.%20%09Sven%20Mikser%0A2.%20%09Mart%20Laar%0A3.%20%09Juhan%20Parts%0A4.%20%09Andrus%20Ansip%0A5.%20%09J%FCrgen%20Ligi%0A6%20%09Edgar%20Savisaar%0A7.%20%09J%FCri%20Ratas%0A8.%20%09Keit%20Pentus%0A9.%20%09Rein%20Lang%0A10.%20%09Igor%20Gr%E4zin</text>
+      </controlProperties>
+    </control>
+    <control controlID="38" controlTypeID="com.balsamiq.mockups::TextInput" x="633" y="374" w="258" h="-1" measuredW="22" measuredH="27" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>e</text>
+      </controlProperties>
+    </control>
+    <control controlID="39" controlTypeID="com.balsamiq.mockups::TextInput" x="1022" y="366" w="173" h="-1" measuredW="79" measuredH="26" zOrder="15" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="40" controlTypeID="com.balsamiq.mockups::Label" x="989" y="369" w="-1" h="-1" measuredW="25" measuredH="21" zOrder="16" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Nimi</text>
+      </controlProperties>
+    </control>
+    <control controlID="41" controlTypeID="com.balsamiq.mockups::Label" x="577" y="377" w="-1" h="-1" measuredW="48" measuredH="21" zOrder="17" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Erakond</text>
+      </controlProperties>
+    </control>
+    <control controlID="42" controlTypeID="com.balsamiq.mockups::Label" x="207" y="377" w="-1" h="-1" measuredW="55" measuredH="21" zOrder="18" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Ringkond</text>
       </controlProperties>
     </control>
   </controls>
