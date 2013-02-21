@@ -5,11 +5,11 @@
         <text>A%20Web%20Page%0Ahttp%3A//www.e-valimised.ee</text>
       </controlProperties>
     </control>
-    <control controlID="3" controlTypeID="com.balsamiq.mockups::ButtonBar" x="285" y="260" w="417" h="46" measuredW="328" measuredH="27" zOrder="1" locked="false" isInGroup="-1">
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::ButtonBar" x="285" y="260" w="417" h="46" measuredW="240" measuredH="27" zOrder="1" locked="false" isInGroup="-1">
       <controlProperties>
-        <hrefs>kodu%26bm%3Bkodu.bmml%26bm%3Bkodu.bmml%26bm%3Bkodu.bmml%2Ckandidaadid%26bm%3Bkandidaadid.bmml%26bm%3Bkandidaadid.bmml%26bm%3Bkandidaadid.bmml%2Ctulemused%26bm%3Btulemused.bmml%26bm%3Btulemused.bmml%26bm%3Btulemused.bmml%2Ckandideeri%26bm%3Bkandideeri.bmml%26bm%3Bkandideeri.bmml%26bm%3Bkandideeri.bmml</hrefs>
-        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22132%2C211%2C200%2C257%22%20href%3D%22kodu.bmml%22%20alt%3D%22kodu%22%20id%3D%223%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%22200%2C211%2C324%2C257%22%20href%3D%22kandidaadid.bmml%22%20alt%3D%22kandidaadid%22%20id%3D%223%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%22324%2C211%2C435%2C257%22%20href%3D%22tulemused.bmml%22%20alt%3D%22tulemused%22%20id%3D%223%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%22435%2C211%2C546%2C257%22%20href%3D%22kandideeri.bmml%22%20alt%3D%22kandideeri%22%20id%3D%223%22/%3E%0A</map>
-        <text>Kodu%2C%20Kandidaadid%2C%20Tulemused%2C%20Kandideeri</text>
+        <hrefs>kodu%26bm%3Bkodu.bmml%26bm%3Bkodu.bmml%26bm%3Bkodu.bmml%2Ckandidaadid%26bm%3Bkandidaadid.bmml%26bm%3Bkandidaadid.bmml%26bm%3Bkandidaadid.bmml%2Ctulemused%26bm%3Btulemused.bmml%26bm%3Btulemused.bmml%26bm%3Btulemused.bmml</hrefs>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22132%2C211%2C225%2C257%22%20href%3D%22kodu.bmml%22%20alt%3D%22kodu%22%20id%3D%223%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%22225%2C211%2C395%2C257%22%20href%3D%22kandidaadid.bmml%22%20alt%3D%22kandidaadid%22%20id%3D%223%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%22395%2C211%2C547%2C257%22%20href%3D%22tulemused.bmml%22%20alt%3D%22tulemused%22%20id%3D%223%22/%3E%0A</map>
+        <text>Kodu%2C%20Kandidaadid%2C%20Tulemused</text>
       </controlProperties>
     </control>
     <control controlID="5" controlTypeID="com.balsamiq.mockups::IconLabel" x="285" y="159" w="230" h="-1" measuredW="162" measuredH="78" zOrder="2" locked="false" isInGroup="-1">
