@@ -7,8 +7,8 @@
     </control>
     <control controlID="3" controlTypeID="com.balsamiq.mockups::ButtonBar" x="285" y="260" w="417" h="46" measuredW="328" measuredH="27" zOrder="1" locked="false" isInGroup="-1">
       <controlProperties>
-        <hrefs>kodu%26bm%3Bkodu.bmml%26bm%3Bkodu.bmml%26bm%3Bkodu.bmml%2Ckandidaadid%26bm%3Bkandidaadid.bmml%26bm%3Bkandidaadid.bmml%26bm%3Bkandidaadid.bmml%2C%2C</hrefs>
-        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22132%2C211%2C200%2C257%22%20href%3D%22kodu.bmml%22%20alt%3D%22kodu%22%20id%3D%223%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%22200%2C211%2C324%2C257%22%20href%3D%22kandidaadid.bmml%22%20alt%3D%22kandidaadid%22%20id%3D%223%22/%3E%0A</map>
+        <hrefs>kodu%26bm%3Bkodu.bmml%26bm%3Bkodu.bmml%26bm%3Bkodu.bmml%2Ckandidaadid%26bm%3Bkandidaadid.bmml%26bm%3Bkandidaadid.bmml%26bm%3Bkandidaadid.bmml%2Ctulemused%26bm%3Btulemused.bmml%26bm%3Btulemused.bmml%26bm%3Btulemused.bmml%2Ckandideeri%26bm%3Bkandideeri.bmml%26bm%3Bkandideeri.bmml%26bm%3Bkandideeri.bmml</hrefs>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22132%2C211%2C200%2C257%22%20href%3D%22kodu.bmml%22%20alt%3D%22kodu%22%20id%3D%223%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%22200%2C211%2C324%2C257%22%20href%3D%22kandidaadid.bmml%22%20alt%3D%22kandidaadid%22%20id%3D%223%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%22324%2C211%2C435%2C257%22%20href%3D%22tulemused.bmml%22%20alt%3D%22tulemused%22%20id%3D%223%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%22435%2C211%2C546%2C257%22%20href%3D%22kandideeri.bmml%22%20alt%3D%22kandideeri%22%20id%3D%223%22/%3E%0A</map>
         <text>Kodu%2C%20Kandidaadid%2C%20Tulemused%2C%20Kandideeri</text>
       </controlProperties>
     </control>
@@ -32,9 +32,20 @@
         <text>Logi%20sisse</text>
       </controlProperties>
     </control>
-    <control controlID="13" controlTypeID="com.balsamiq.mockups::Label" x="374" y="464" w="-1" h="-1" measuredW="94" measuredH="21" zOrder="4" locked="false" isInGroup="-1">
+    <control controlID="14" controlTypeID="com.balsamiq.mockups::Label" x="297" y="365" w="-1" h="-1" measuredW="223" measuredH="21" zOrder="4" locked="false" isInGroup="-1">
       <controlProperties>
-        <text>Tutvustav%20tekst</text>
+        <text>Tere%20tulemast%20E-valimiste%20veebilehele%21%20</text>
+        <textOrientation>right</textOrientation>
+      </controlProperties>
+    </control>
+    <control controlID="15" controlTypeID="com.balsamiq.mockups::Label" x="297" y="386" w="-1" h="-1" measuredW="280" measuredH="21" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Siin%20saate%20h%E4%E4letada%20ja%20vaadata%20valimistulemusi.%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="16" controlTypeID="com.balsamiq.mockups::Label" x="297" y="407" w="-1" h="-1" measuredW="218" measuredH="21" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>H%E4%E4letamiseks%20tuleb%20Teil%20sisse%20logida.</text>
       </controlProperties>
     </control>
   </controls>

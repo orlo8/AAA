@@ -7,8 +7,8 @@
     </control>
     <control controlID="3" controlTypeID="com.balsamiq.mockups::ButtonBar" x="285" y="260" w="417" h="46" measuredW="328" measuredH="27" zOrder="1" locked="false" isInGroup="-1">
       <controlProperties>
-        <hrefs>sisselogitud%26bm%3Bsisselogitud.bmml%26bm%3Bsisselogitud.bmml%26bm%3Bsisselogitud.bmml%2Ckandidaadid_sisselogitult%26bm%3Bkandidaadid_sisselogitult.bmml%26bm%3Bkandidaadid_sisselogitult.bmml%26bm%3Bkandidaadid_sisselogitult.bmml%2Ch%E4%E4letatud%26bm%3Bh%E4%E4letatud.bmml%26bm%3Bh%E4%E4letatud.bmml%26bm%3Bh%E4%E4letatud.bmml%2C</hrefs>
-        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22132%2C211%2C200%2C257%22%20href%3D%22sisselogitud.bmml%22%20alt%3D%22sisselogitud%22%20id%3D%223%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%22200%2C211%2C324%2C257%22%20href%3D%22kandidaadid_sisselogitult.bmml%22%20alt%3D%22kandidaadid_sisselogitult%22%20id%3D%223%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%22324%2C211%2C435%2C257%22%20href%3D%22h%25C3%25A4%25C3%25A4letatud.bmml%22%20alt%3D%22h%E4%E4letatud%22%20id%3D%223%22/%3E%0A</map>
+        <hrefs>sisselogitud%26bm%3Bsisselogitud.bmml%26bm%3Bsisselogitud.bmml%26bm%3Bsisselogitud.bmml%2Ckandidaadid_sisselogitult%26bm%3Bkandidaadid_sisselogitult.bmml%26bm%3Bkandidaadid_sisselogitult.bmml%26bm%3Bkandidaadid_sisselogitult.bmml%2Ctulemused_sisselogitult%26bm%3Btulemused_sisselogitult.bmml%26bm%3Btulemused_sisselogitult.bmml%26bm%3Btulemused_sisselogitult.bmml%2Ckandideeri_sisselogitult%26bm%3Bkandideeri_sisselogitult.bmml%26bm%3Bkandideeri_sisselogitult.bmml%26bm%3Bkandideeri_sisselogitult.bmml</hrefs>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22132%2C211%2C200%2C257%22%20href%3D%22sisselogitud.bmml%22%20alt%3D%22sisselogitud%22%20id%3D%223%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%22200%2C211%2C324%2C257%22%20href%3D%22kandidaadid_sisselogitult.bmml%22%20alt%3D%22kandidaadid_sisselogitult%22%20id%3D%223%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%22324%2C211%2C435%2C257%22%20href%3D%22tulemused_sisselogitult.bmml%22%20alt%3D%22tulemused_sisselogitult%22%20id%3D%223%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%22435%2C211%2C546%2C257%22%20href%3D%22kandideeri_sisselogitult.bmml%22%20alt%3D%22kandideeri_sisselogitult%22%20id%3D%223%22/%3E%0A</map>
         <selectedIndex>1</selectedIndex>
         <text>Kodu%2C%20Kandidaadid%2C%20Tulemused%2C%20Kandideeri</text>
       </controlProperties>
@@ -108,9 +108,9 @@
         <text>1.%20%09Sven%20Mikser%0A2.%20%09Mart%20Laar%0A3.%20%09Juhan%20Parts%0A4.%20%09Andrus%20Ansip%0A5.%20%09J%FCrgen%20Ligi%0A6%20%09Edgar%20Savisaar%0A7.%20%09J%FCri%20Ratas%0A8.%20%09Keit%20Pentus%0A9.%20%09Rein%20Lang%0A10.%20%09Igor%20Gr%E4zin</text>
       </controlProperties>
     </control>
-    <control controlID="38" controlTypeID="com.balsamiq.mockups::TextInput" x="633" y="374" w="258" h="-1" measuredW="22" measuredH="27" zOrder="14" locked="false" isInGroup="-1">
+    <control controlID="38" controlTypeID="com.balsamiq.mockups::TextInput" x="633" y="374" w="258" h="-1" measuredW="79" measuredH="26" zOrder="14" locked="false" isInGroup="-1">
       <controlProperties>
-        <text>e</text>
+        <text/>
       </controlProperties>
     </control>
     <control controlID="39" controlTypeID="com.balsamiq.mockups::TextInput" x="1022" y="366" w="173" h="-1" measuredW="79" measuredH="26" zOrder="15" locked="false" isInGroup="-1">

@@ -7,8 +7,8 @@
     </control>
     <control controlID="3" controlTypeID="com.balsamiq.mockups::ButtonBar" x="285" y="260" w="417" h="46" measuredW="328" measuredH="27" zOrder="1" locked="false" isInGroup="-1">
       <controlProperties>
-        <hrefs>sisselogitud%26bm%3Bsisselogitud.bmml%26bm%3Bsisselogitud.bmml%26bm%3Bsisselogitud.bmml%2Ckandidaadid_sisselogitult%26bm%3Bkandidaadid_sisselogitult.bmml%26bm%3Bkandidaadid_sisselogitult.bmml%26bm%3Bkandidaadid_sisselogitult.bmml%2C%2C</hrefs>
-        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22132%2C211%2C200%2C257%22%20href%3D%22sisselogitud.bmml%22%20alt%3D%22sisselogitud%22%20id%3D%223%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%22200%2C211%2C324%2C257%22%20href%3D%22kandidaadid_sisselogitult.bmml%22%20alt%3D%22kandidaadid_sisselogitult%22%20id%3D%223%22/%3E%0A</map>
+        <hrefs>sisselogitud%26bm%3Bsisselogitud.bmml%26bm%3Bsisselogitud.bmml%26bm%3Bsisselogitud.bmml%2Ckandidaadid_sisselogitult%26bm%3Bkandidaadid_sisselogitult.bmml%26bm%3Bkandidaadid_sisselogitult.bmml%26bm%3Bkandidaadid_sisselogitult.bmml%2Ctulemused_sisselogitult%26bm%3Btulemused_sisselogitult.bmml%26bm%3Btulemused_sisselogitult.bmml%26bm%3Btulemused_sisselogitult.bmml%2Ckandideeri_sisselogitult%26bm%3Bkandideeri_sisselogitult.bmml%26bm%3Bkandideeri_sisselogitult.bmml%26bm%3Bkandideeri_sisselogitult.bmml</hrefs>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22132%2C211%2C200%2C257%22%20href%3D%22sisselogitud.bmml%22%20alt%3D%22sisselogitud%22%20id%3D%223%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%22200%2C211%2C324%2C257%22%20href%3D%22kandidaadid_sisselogitult.bmml%22%20alt%3D%22kandidaadid_sisselogitult%22%20id%3D%223%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%22324%2C211%2C435%2C257%22%20href%3D%22tulemused_sisselogitult.bmml%22%20alt%3D%22tulemused_sisselogitult%22%20id%3D%223%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%22435%2C211%2C546%2C257%22%20href%3D%22kandideeri_sisselogitult.bmml%22%20alt%3D%22kandideeri_sisselogitult%22%20id%3D%223%22/%3E%0A</map>
         <text>Kodu%2C%20Kandidaadid%2C%20Tulemused%2C%20Kandideeri</text>
       </controlProperties>
     </control>
@@ -39,6 +39,8 @@
     </control>
     <control controlID="14" controlTypeID="com.balsamiq.mockups::Button" x="285" y="346" w="-1" h="-1" measuredW="174" measuredH="27" zOrder="5" locked="false" isInGroup="-1">
       <controlProperties>
+        <href>kandideeri_sisselogitult%26bm%3Bkandideeri_sisselogitult.bmml%26bm%3Bkandideeri_sisselogitult.bmml%26bm%3Bkandideeri_sisselogitult.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22132%2C297%2C306%2C324%22%20href%3D%22kandideeri_sisselogitult.bmml%22%20alt%3D%22kandideeri_sisselogitult%22%20id%3D%2214%22/%3E</map>
         <text>Lisa%20ennast%20kandidaadiks</text>
       </controlProperties>
     </control>
