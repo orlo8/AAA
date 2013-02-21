@@ -1,0 +1,94 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1519" measuredH="1194" mockupW="1366" mockupH="1145">
+  <controls>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="153" y="49" w="1366" h="1145" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>A%20Web%20Page%0Ahttp%3A//www.e-valimised.ee</text>
+      </controlProperties>
+    </control>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::ButtonBar" x="285" y="260" w="417" h="46" measuredW="328" measuredH="27" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <hrefs>kodu%26bm%3Bkodu.bmml%26bm%3Bkodu.bmml%26bm%3Bkodu.bmml%2Ckandidaadid%26bm%3Bkandidaadid.bmml%26bm%3Bkandidaadid.bmml%26bm%3Bkandidaadid.bmml%2Ctulemused%26bm%3Btulemused.bmml%26bm%3Btulemused.bmml%26bm%3Btulemused.bmml%2Ckandideeri%26bm%3Bkandideeri.bmml%26bm%3Bkandideeri.bmml%26bm%3Bkandideeri.bmml</hrefs>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22132%2C211%2C200%2C257%22%20href%3D%22kodu.bmml%22%20alt%3D%22kodu%22%20id%3D%223%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%22200%2C211%2C324%2C257%22%20href%3D%22kandidaadid.bmml%22%20alt%3D%22kandidaadid%22%20id%3D%223%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%22324%2C211%2C435%2C257%22%20href%3D%22tulemused.bmml%22%20alt%3D%22tulemused%22%20id%3D%223%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%22435%2C211%2C546%2C257%22%20href%3D%22kandideeri.bmml%22%20alt%3D%22kandideeri%22%20id%3D%223%22/%3E%0A</map>
+        <selectedIndex>2</selectedIndex>
+        <text>Kodu%2C%20Kandidaadid%2C%20Tulemused%2C%20Kandideeri</text>
+      </controlProperties>
+    </control>
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::IconLabel" x="285" y="159" w="230" h="-1" measuredW="162" measuredH="78" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>false</bold>
+        <borderStyle>none</borderStyle>
+        <color>472931</color>
+        <icon>LinkGlobeIcon%7Clarge</icon>
+        <labelPosition>bottom</labelPosition>
+        <size>28</size>
+        <text>E%20-%20valimised</text>
+      </controlProperties>
+    </control>
+    <control controlID="12" controlTypeID="com.balsamiq.mockups::Button" x="1234" y="210" w="-1" h="-1" measuredW="109" measuredH="27" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>10470904</color>
+        <href>sisselogimine%26bm%3Bsisselogimine.bmml%26bm%3Bsisselogimine.bmml%26bm%3Bsisselogimine.bmml</href>
+        <icon>UserIcon%7Csmall</icon>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%221081%2C161%2C1190%2C188%22%20href%3D%22sisselogimine.bmml%22%20alt%3D%22sisselogimine%22%20id%3D%2212%22/%3E</map>
+        <text>Logi%20sisse</text>
+      </controlProperties>
+    </control>
+    <control controlID="14" controlTypeID="com.balsamiq.mockups::DataGrid" x="369" y="403" w="-1" h="-1" measuredW="307" measuredH="291" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Erakond%20%2C%20H%E4%E4lte%20arv%20%0AEesti%20Reformierakond%2C%20164%20255%0AEesti%20Keskerakond%2C%20134%20124%0ASotsiaaldemokraatlik%20Erakond%2C%2098%20307%0AErakond%20Eestimaa%20Rohelised%2C%2021%20824%0AEestimaa%20Rahvaliit%2C%2012%20184%0AVene%20Erakond%20Eestis%2C%205029%0AErakond%20Eesti%20Kristlikud%20Demokraadid%2C%202934%0AEesti%20Iseseisvuspartei%2C%202571%0A%DCksikkandidaadid%2C%2015%20882</text>
+      </controlProperties>
+    </control>
+    <control controlID="15" controlTypeID="com.balsamiq.mockups::Label" x="409" y="367" w="-1" h="-1" measuredW="216" measuredH="21" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>H%E4%E4lte%20jagunemine%20erakondade%20l%F5ikes</text>
+      </controlProperties>
+    </control>
+    <control controlID="17" controlTypeID="com.balsamiq.mockups::Image" x="822" y="409" w="412" h="277" measuredW="1601" measuredH="1125" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./assets/kaart.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="18" controlTypeID="com.balsamiq.mockups::Label" x="921" y="367" w="-1" h="-1" measuredW="215" measuredH="21" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>H%E4%E4lte%20jagunemine%20piirkondade%20l%F5ikes</text>
+      </controlProperties>
+    </control>
+    <control controlID="22" controlTypeID="com.balsamiq.mockups::List" x="421" y="767" w="200" h="300" measuredW="100" measuredH="300" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Edgar%20Savisaar%09%093%2C559%0AAndrus%20Ansip%09%093%2C043%0AMihhail%20Stalnuhhin%091%2C838%0AUrmas%20Paet%09%091%2C708%0AMart%20Laar%09%091%2C530%0ASven%20Mikser%09%091%2C450%0AKeit%20Pentus%09%091%2C359%0AJ%FCri%20Ratas%09%091%2C207%0AUrmas%20Kruuse%09%091%2C189%0AKaja%20Kallas%09%091%2C147%0ATaavi%20R%F5ivas%09%091%2C145%0AIgor%20Gr%E4zin%09%091%2C060%0AJuhan%20Parts%09%091%2C022%0ADeniss%20Borodit%u0161%09%091%2C006</text>
+      </controlProperties>
+    </control>
+    <control controlID="23" controlTypeID="com.balsamiq.mockups::Label" x="409" y="724" w="-1" h="-1" measuredW="224" measuredH="21" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>H%E4%E4lte%20jagunemine%20kandidaatide%20l%F5ikes</text>
+      </controlProperties>
+    </control>
+    <control controlID="26" controlTypeID="com.balsamiq.mockups::BarChart" x="925" y="788" w="187" h="175" measuredW="187" measuredH="175" zOrder="10" locked="false" isInGroup="-1"/>
+    <control controlID="27" controlTypeID="com.balsamiq.mockups::Label" x="828" y="846" w="-1" h="-1" measuredW="70" measuredH="21" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Urmas%20Paet</text>
+      </controlProperties>
+    </control>
+    <control controlID="28" controlTypeID="com.balsamiq.mockups::Label" x="828" y="896" w="-1" h="-1" measuredW="93" measuredH="21" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Edgar%20Savisaar</text>
+      </controlProperties>
+    </control>
+    <control controlID="29" controlTypeID="com.balsamiq.mockups::Label" x="828" y="925" w="-1" h="-1" measuredW="80" measuredH="21" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Andrus%20Ansip</text>
+      </controlProperties>
+    </control>
+    <control controlID="30" controlTypeID="com.balsamiq.mockups::Label" x="828" y="817" w="-1" h="-1" measuredW="60" measuredH="21" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Mart%20Laar</text>
+      </controlProperties>
+    </control>
+    <control controlID="31" controlTypeID="com.balsamiq.mockups::Label" x="929" y="724" w="-1" h="-1" measuredW="170" measuredH="21" zOrder="15" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>H%E4%E4letustulemused%20reaalajas</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
