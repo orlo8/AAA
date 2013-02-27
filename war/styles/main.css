@@ -1,0 +1,26 @@
+html{
+	padding-left: 10%;
+	padding-right: 10%;
+}
+#peamenyy{
+	height: 5%;
+	display:block;
+}
+#header{
+	width: 2000px;
+	}
+
+#peamenyy a{
+	padding:4pt 4pt;
+	margin-left: 1pt;
+	background-color: #6666dd;
+	border-color: #000000;
+	border-radius:2pt;
+	color: #ffffff;
+	letter-spacing: 1pt;
+	text-decoration: none;
+	float:left;
+}
+#peamenyy .aktiivne{
+	background-color: #dd6666;
+}
