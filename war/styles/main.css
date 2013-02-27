@@ -1,15 +1,28 @@
 html{
-	padding-left: 10%;
-	padding-right: 10%;
+	padding-left: 5%;
+	padding-right: 5%;
 }
 #peamenyy{
 	height: 5%;
-	display:block;
 }
 #header{
-	width: 2000px;
-	}
-
+	overflow: hidden;
+}
+#sisu{
+	float:left;
+}
+#ringkonnadiv, #erakonnadiv, #nimekirjadiv {
+	float: left;
+	width: 180pt;
+	margin: 10pt;
+}
+#ringkonnasisestus, #ringkond, #erakonnasisestus, #erakond, #nimesisestus, #nimi{
+	width: 100%;
+	margin: 1pt;
+}
+#valimisabi{
+	margin-top: 25%;
+}
 #peamenyy a{
 	padding:4pt 4pt;
 	margin-left: 1pt;
@@ -22,5 +35,8 @@ html{
 	float:left;
 }
 #peamenyy .aktiivne{
+	background-color: #dd6666;
+}
+#peamenyy :hover{
 	background-color: #dd6666;
 }
