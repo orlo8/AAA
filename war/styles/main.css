@@ -40,46 +40,24 @@ html{
 #peamenyy :hover{
 	background-color: #dd6666;
 }
-#kandideerinupp{
-	padding:4pt 4pt;
-	margin: 10pt;
-	margin-top: 23%;
-	background-color: #6666dd;
-	border-color: #000000;
-	border-radius:2pt;
-	color: #ffffff;
-	letter-spacing: 1pt;
-	text-decoration: none;
+
+table, th, td
+{
+	border: 1px solid black;
+}
+
+th
+{
+	background-color: #CCC;
+}
+
+tr.d0 td {
+	background-color: #EEE;
+}
+tr.d1 td {
+	background-color: #FFF;
+}
+# erakonnatulemdiv, #piirkonnatulemdiv, #kandidaaditulemdiv {
+	width: 100px;
 	float:left;
-}
-
-#kandideerinupp:hover {
-	background-color: #dd6666;
-}
-
-#login{
-	margin-left: 10% !important;
-}
-
-#logimine{
-	margin: 20%;
-	padding: 4pt;	
-	
-}
-
-#loginnupp{
-	padding:4pt 4pt;
-	margin: 10pt;
-	margin: 5pt;
-	background-color: #6666dd;
-	border-color: #000000;
-	border-radius:2pt;
-	color: #ffffff;
-	letter-spacing: 1pt;
-	text-decoration: none;
-	float:left;
-}
-
-#loginnupp:hover {
-	background-color: #dd6666;
 }
