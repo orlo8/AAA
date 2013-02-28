@@ -40,3 +40,46 @@ html{
 #peamenyy :hover{
 	background-color: #dd6666;
 }
+#kandideerinupp{
+	padding:4pt 4pt;
+	margin: 10pt;
+	margin-top: 23%;
+	background-color: #6666dd;
+	border-color: #000000;
+	border-radius:2pt;
+	color: #ffffff;
+	letter-spacing: 1pt;
+	text-decoration: none;
+	float:left;
+}
+
+#kandideerinupp:hover {
+	background-color: #dd6666;
+}
+
+#login{
+	margin-left: 10% !important;
+}
+
+#logimine{
+	margin: 20%;
+	padding: 4pt;	
+	
+}
+
+#loginnupp{
+	padding:4pt 4pt;
+	margin: 10pt;
+	margin: 5pt;
+	background-color: #6666dd;
+	border-color: #000000;
+	border-radius:2pt;
+	color: #ffffff;
+	letter-spacing: 1pt;
+	text-decoration: none;
+	float:left;
+}
+
+#loginnupp:hover {
+	background-color: #dd6666;
+}
