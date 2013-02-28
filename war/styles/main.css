@@ -24,6 +24,9 @@ body{
 #valimisabi{
 	margin-top: 25%;
 }
+#peamenyy{
+	max-width: 800pt;
+}
 #peamenyy a{
 	padding:4pt 4pt;
 	margin-left: 1pt;
@@ -83,7 +86,7 @@ tr.d1 td {
 	background-color: #dd6666;
 }
 #login{
-	margin-left: 10% !important;
+	float: right !important;
 }
 #logimine{
 	margin: 20%;
