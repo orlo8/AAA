@@ -52,6 +52,25 @@ body{
 	text-decoration: none;
 	float:left;
 }
+table, th, td
+{
+	border: 1px solid black;
+}
+th
+{
+	background-color: #CCC;
+}
+
+tr.d0 td {
+	background-color: #EEE;
+}
+tr.d1 td {
+	background-color: #FFF;
+}
+# erakonnatulemdiv, #piirkonnatulemdiv, #kandidaaditulemdiv {
+	width: 100px;
+	float:left;
+}
 
 #kandideerinupp:hover {
 	background-color: #dd6666;
