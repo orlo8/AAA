@@ -1,4 +1,4 @@
-html{
+body{
 	padding-left: 5%;
 	padding-right: 5%;
 }
@@ -67,7 +67,7 @@ html{
 	
 }
 
-#loginnupp{
+#loginid, #logingoogle{
 	padding:4pt 4pt;
 	margin: 10pt;
 	margin: 5pt;
