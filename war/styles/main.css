@@ -1,6 +1,6 @@
 body{
-	padding-left: 5%;
-	padding-right: 5%;
+	padding-left: 2%;
+	padding-right: 2%;
 }
 #peamenyy{
 	height: 5%;
@@ -9,11 +9,12 @@ body{
 	overflow: hidden;
 }
 #sisu{
+	margin:2%;
 	float:left;
 }
 #ringkonnadiv, #erakonnadiv, #nimekirjadiv {
 	float: left;
-	width: 180pt;
+	width: 180px;
 	margin: 10pt;
 }
 #ringkonnasisestus, #ringkond, #erakonnasisestus, 
