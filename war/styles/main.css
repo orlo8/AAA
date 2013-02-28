@@ -66,9 +66,11 @@ tr.d0 td {
 }
 tr.d1 td {
 	background-color: #FFF;
+
 }
-# erakonnatulemdiv, #piirkonnatulemdiv, #kandidaaditulemdiv {
-	width: 100px;
+#piirkonnatulemdiv, #reaalajasdiv,
+#erakonnatulemdiv, #kandidaaditulemdiv {
+	margin-right:5%;
 	float:left;
 }
 
