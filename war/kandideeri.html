@@ -4,24 +4,19 @@
 		<meta content="text/html; charset=utf-8"
 		http-equiv="Content-Type" />
 		<title>E-valimised 2013</title>
-		<link rel="stylesheet" href="styles/main.css"/> 
+		<link rel="stylesheet" href="styles/jquery-ui.css" />
+		  <script src="js/jquery-ui.js"></script>
+		 <script src="js/verify_fields_kandideeri.js"></script>
+
 	</head>
 	<body>
-		<div id="header">
-			<img id="pealogo" src="logo.png" alt="Valimiste logo"></img>
-			<div id="peamenyy">
-				<a href="index.html">Kodu</a>
-				<a href="kandidaadid.html">Kandidaadid</a>
-				<a href="tulemused.html">Tulemused</a>
-				<a href="kandideeri.html" class="aktiivne">Kandideeri</a>
-                <a href="logisisse.html" id="login">Logi sisse</a>
-			</div>
-		</div>
+		
+		
 		<div id="sisu">
+			<form id="kandideeriform">
 			<div id="ringkonnadiv">
-				<h1>Ringkonnad</h1>
-				<label for="ringkonnasisestus">Ringkond</label><input type="text" id="ringkonnasisestus"/>
-				<select id="ringkond" size="10">
+				<label for="ringkonnasisestus">Ringkond</label><input type="text" id="ringkonnasisestus" name="a"/>
+				<select id="ringkond" name="ringkond" size="10" class="required">
 					<option value="1">Tallinn</option>
 					<option value="2">Tartu</option>
 					<option value="3">Pärnu</option>
@@ -29,10 +24,10 @@
 					<option value="5">Rakvere</option>
 				</select>
 			</div>
+			<em id="ringkonnaviga"></em>
 			<div id="erakonnadiv">
-				<h1>Erakonnad</h1>
-				<label for="erakonnasisestus">Erakond</label><input type="text" id="erakonnasisestus"/>
-				<select id="erakond" size="10">
+				<label for="erakonnasisestus">Erakond</label><input type="text" id="erakonnasisestus" name="d"/>
+				<select id="erakond" name="erakond" size="10" class="required">
 					<option value="1">Eestimaa Rohelised</option>
 					<option value="2">Eesti Keskerakond</option>
 					<option value="3">Eesti Reformierakond</option>
@@ -40,7 +35,10 @@
 					<option value="5">Eestimaa Rahvaliit</option>
 				</select>
 			</div>
-          <a href="kandideeri.html" id="kandideerinupp"> Kinnita </a>
+          		<input type="submit" id="kandideerinupp" value="Kinnita"/>
+		</form>
+		
 		</div>
+		
 	</body>
 </html>
