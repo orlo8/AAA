@@ -1,9 +1,9 @@
-function ajaxfinished(){
+$(document).ajaxStop(function (){
 	ringkond=$("#ringkonnasisestus");
 	erakond=$("#erakonnasisestus");
 	$("#kandideeriform").submit(function(){
 		var viga=false;		
-		//algseisu v√§√§rtuste taastamine
+		//algseisu v‰‰rtuste taastamine
 		$(".vead").remove();
 		ringkond.removeClass("vigane");
 		erakond.removeClass("vigane");
@@ -35,4 +35,4 @@ function ajaxfinished(){
 		    });
   	});
 
-}
+});
