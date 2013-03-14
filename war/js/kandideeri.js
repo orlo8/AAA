@@ -1,6 +1,7 @@
-$(document).ajaxStop(function (){
-	ringkond=$("#ringkonnasisestus");
-	erakond=$("#erakonnasisestus");
+console.log("kandideeri.js");
+$(document).ajaxComplete(function (){
+	ringkond=$("#ringkond");
+	erakond=$("#erakond");
 	$("#kandideeriform").submit(function(){
 		var viga=false;		
 		//algseisu v‰‰rtuste taastamine
@@ -21,12 +22,12 @@ $(document).ajaxStop(function (){
 	});
 	
 	var erakonnad = ["Eestimaa rohelised", "Keskerakond", "Sotsiaaldemokraadid"];
-	$( "#erakonnasisestus" ).autocomplete({
+	erakond.autocomplete({
 	  source: erakonnad
 	});
 
 	var ringkonnad=["Harjumaa", "Tartumaa", "Eestimaa"];
-	$( "#ringkonnasisestus" ).autocomplete({
+	ringkond.autocomplete({
 	  source: ringkonnad
 	});
 
