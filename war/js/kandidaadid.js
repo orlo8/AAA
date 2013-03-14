@@ -1,4 +1,5 @@
-$(document).ajaxStop(function (){
+console.log("kandidaadid.js");
+$(document).ajaxComplete(function (){
 	var erakonnad = ["Eestimaa rohelised", "Keskerakond", "Sotsiaaldemokraadid"];
 	erakonnaotsing=$( "#erakonnaotsing" );
 	erakonnaotsing.autocomplete({
@@ -15,9 +16,9 @@ $(document).ajaxStop(function (){
 	});
 	$("#otsikandidaati").on("click",function(event){
 		event.preventDefault();
-		var nimekiri=$("#nimekiri");
-		nimekiri.find("tr:gt(0)").remove();
-		if(ringkonnaotsing.val()!=="" && erakonnaotsing.val()!==""){
+		if(ringkonnaotsing.val()!=="" && erakonnaotsing.val()!==""){				
+			var nimekiri=$("#nimekiri");
+			nimekiri.find("tr:gt(0)").remove();
 			$.getJSON("data/findCandidatesByPartyAndRegion.json", function(result) {
 				for (var i in result.candidates){
 					var nimi =result.candidates[i].person.name;
@@ -27,7 +28,9 @@ $(document).ajaxStop(function (){
 			});
 		}
 		else if(ringkonnaotsing.val()!==""){
-			$.getJSON("data/findCandidatesByRegion.json", function(result) {
+			$.getJSON("data/findCandidatesByRegion.json", function(result) {			
+				var nimekiri=$("#nimekiri");
+				nimekiri.find("tr:gt(0)").remove();
 				for (var i in result.candidates){
 					var nimi =result.candidates[i].person.name;
 					var id =result.candidates[i].id;
@@ -37,7 +40,9 @@ $(document).ajaxStop(function (){
 			});
 		}
 		else if(erakonnaotsing.val()!==""){
-			$.getJSON("data/findCandidatesByParty.json", function(result) {
+			$.getJSON("data/findCandidatesByParty.json", function(result) {								
+				var nimekiri=$("#nimekiri");
+				nimekiri.find("tr:gt(0)").remove();
 				for (var i in result.candidates){
 					var nimi =result.candidates[i].person.name;
 					var id =result.candidates[i].id;
