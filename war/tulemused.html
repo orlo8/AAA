@@ -4,58 +4,66 @@
 		<meta content="text/html; charset=utf-8"
 		http-equiv="Content-Type" />
 		<title>E-valimised 2013</title>
-        <link rel="stylesheet" type="text/css" href="styles/print.css" media="print" /> 
+        <link rel="stylesheet" href="/styles/tulemused.css" type="text/css">
+        <link rel="stylesheet" type="text/css" href="styles/print.css" media="print" />
+        <script src="js/jquery.min.js"></script>
+        <script src="js/jquery.tablesorter.js"></script> 
+        <script src="js/tablesorter.js"></script>  
 	</head>
 	<body>
 		</div>
 		<div id="sisu">
   	  		<div id="erakonnatulemdiv">
 				<p><strong>Häälte jagunemine erakondade lõikes</strong></p>
-        		<table>
-                	<tr>
-                        <th width="250">Erakond</th>
-                        <th width="100">Häälte arv</th>
-					</tr>
-                	<tr >
-                        <td>Eesti Reformierakond</td>
-                        <td align="center">164 255</td>
-					</tr>
-                	<tr class="lightblue">
-						<td>Eesti Keskerakond</td>
-						<td align="center">134 124</td>
-					</tr>
-                    <tr >
-						<td>Erakond Isamaa ja Res Publica Liit</td>
-						<td align="center">118 023</td>
-					</tr>
-                    <tr class="lightblue">
-						<td>Sotsiaaldemokraatlik Erakond</td>
-						<td align="center">98 307</td>
-					</tr>
-                    <tr >
-						<td>Erakond Eestimaa Rohelised</td>
-						<td align="center">21 824</td>
-					</tr>
-                    <tr class="lightblue">
-						<td>Eestimaa Rahvaliit</td>
-						<td align="center">12 184</td>
-					</tr>
-                    <tr >
-						<td>Vene Erakond Eestis</td>
-						<td align="center">5 029</td>
-					</tr>
-                    <tr class="lightblue">
-						<td>Erakond Eesti Kristlikud Demokraadid</td>
-						<td align="center">2 934</td>
-					</tr>
-                    <tr >
-						<td>Eesti Iseseisvuspartei</td>
-						<td align="center">2 571</td>
-					</tr>
-                    <tr class="lightblue">
-						<td>Ükskkandidaadid</td>
-						<td align="center">15 822</td>
-					</tr>
+        			<table id="tulemustetabel">
+                <thead> 
+                <tr>
+                    <th class="headerSortUp" width="250">Erakond</th>
+                    <th width="100">Häälte arv</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Eesti Reformierakond</td>
+                    <td align="center">164 255</td>
+                </tr>
+                <tr class="lightblue">
+                    <td>Eesti Keskerakond</td>
+                    <td align="center">134 124</td>
+                </tr>
+                <tr>
+                    <td>Erakond Isamaa ja Res Publica Liit</td>
+                    <td align="center">118 023</td>
+                </tr>
+                <tr class="lightblue">
+                    <td>Sotsiaaldemokraatlik Erakond</td>
+                    <td align="center">98 307</td>
+                </tr>
+                <tr>
+                    <td>Erakond Eestimaa Rohelised</td>
+                    <td align="center">21 824</td>
+                </tr>
+                <tr class="lightblue">
+                    <td>Eestimaa Rahvaliit</td>
+                    <td align="center">12 184</td>
+                </tr>
+                <tr>
+                    <td>Vene Erakond Eestis</td>
+                    <td align="center">5 029</td>
+                </tr>
+                <tr class="lightblue">
+                    <td>Erakond Eesti Kristlikud Demokraadid</td>
+                    <td align="center">2 934</td>
+                </tr>
+                <tr>
+                    <td>Eesti Iseseisvuspartei</td>
+                    <td align="center">2 571</td>
+                </tr>
+                <tr class="lightblue">
+                    <td>Ükskkandidaadid</td>
+                    <td align="center">15 822</td>
+                </tr>
+                </tbody>
 				</table>
 			</div>
 			<div id="piirkonnatulemdiv">

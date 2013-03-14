@@ -110,3 +110,7 @@ tr.lightblue{
 .vead{
 	color:red;
 }
+#ajaxLoader{
+	display:block;
+   	margin:auto;
+}

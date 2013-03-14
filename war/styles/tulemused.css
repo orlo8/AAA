@@ -1,0 +1,10 @@
+@charset "utf-8";
+/* CSS Document */
+th.headerSortUp { 
+    background-image: url(../img/asc.gif);
+    background-color: #3399FF; 
+} 
+th.headerSortDown { 
+    background-image: url(../img/desc.gif); 
+    background-color: #3399FF; 
+} 

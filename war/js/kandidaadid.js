@@ -1,10 +1,10 @@
 $(document).ajaxStop(function (){
-	var erakonnad2 = ["Eestimaa rohelised", "Keskerakond", "Sotsiaaldemokraadid"];
+	var erakonnad = ["Eestimaa rohelised", "Keskerakond", "Sotsiaaldemokraadid"];
 	erakonnaotsing=$( "#erakonnaotsing" );
 	erakonnaotsing.autocomplete({
 	  source: erakonnad
 	});
-	var ringkonnad2=["Harjumaa", "Tartumaa", "Eestimaa"];
+	var ringkonnad=["Harjumaa", "Tartumaa", "Eestimaa"];
 	ringkonnaotsing=$( "#ringkonnaotsing" );
 	ringkonnaotsing.autocomplete({
 	  source: ringkonnad
