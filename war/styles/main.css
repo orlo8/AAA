@@ -111,3 +111,7 @@ tr.d1 td {
 .vead{
 	color:red;
 }
+#ajaxLoader{
+	display:block;
+   	margin:auto;
+}
