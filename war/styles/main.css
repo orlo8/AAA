@@ -12,6 +12,9 @@ body{
 	/*margin:2%;*/
 	float:left;
 }
+#nimekirjadiv{
+	clear: left;
+}
 #ringkonnadiv, #erakonnadiv, #nimekirjadiv {
 	float: left;
 	width: 200px;
@@ -59,10 +62,7 @@ body{
 }
 #loginid, #logingoogle{
 	margin: 5pt;
-}/*
-#kandideerinupp{
-	margin-top: 23%;
-}*/
+}
 #otsikandidaati{
 	margin-top: 5%;
 }
