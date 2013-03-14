@@ -7,7 +7,7 @@ $(document).ready(function(){
 			$('#sisu').load(href+" #sisu");
 			return false;
 		}
-		$('#sisu').load(href);
+		$('#sisu').empty().load(href);
 		return false;
 	});
 });

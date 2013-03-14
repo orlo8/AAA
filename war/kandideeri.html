@@ -6,37 +6,23 @@
 		<title>E-valimised 2013</title>
 		<link rel="stylesheet" href="styles/jquery-ui.css" />
 		  <script src="js/jquery-ui.js"></script>
-		 <script src="js/kandideeri_fields.js"></script>
+		 <script src="js/kandideeri.js"></script>
 
 	</head>
 	<body>
 		
 		
 		<div id="sisu">
-			<form id="kandideeriform">
-			<div id="ringkonnadiv">
-				<label for="ringkonnasisestus">Ringkond</label><input type="text" id="ringkonnasisestus" name="a"/>
-				<select id="ringkond" name="ringkond" size="10" class="required">
-					<option value="1">Tallinn</option>
-					<option value="2">Tartu</option>
-					<option value="3">Pärnu</option>
-					<option value="4">Viljandi</option>
-					<option value="5">Rakvere</option>
-				</select>
-			</div>
-			<em id="ringkonnaviga"></em>
-			<div id="erakonnadiv">
-				<label for="erakonnasisestus">Erakond</label><input type="text" id="erakonnasisestus" name="d"/>
-				<select id="erakond" name="erakond" size="10" class="required">
-					<option value="1">Eestimaa Rohelised</option>
-					<option value="2">Eesti Keskerakond</option>
-					<option value="3">Eesti Reformierakond</option>
-					<option value="4">Sotsiaaldemokraatlik Erakond</option>
-					<option value="5">Eestimaa Rahvaliit</option>
-				</select>
-			</div>
-          		<input type="submit" id="kandideerinupp" value="Kinnita"/>
-		</form>
+			<form id="kandideeriform" method="post">
+				<div id="ringkonnadiv">
+					<label for="ringkonnasisestus">Ringkond</label><input type="text" id="ringkonnasisestus" name="a"/>
+				</div>
+				<em id="ringkonnaviga"></em>
+				<div id="erakonnadiv">
+					<label for="erakonnasisestus">Erakond</label><input type="text" id="erakonnasisestus" name="d"/>
+				</div>
+				<input type="submit" id="kandideerinupp" value="Kinnita"/>
+			</form>
 		
 		</div>
 		

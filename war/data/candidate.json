@@ -1,0 +1,15 @@
+{
+"id": "1234567890", 
+"party" : {
+	"id":"REF",
+	"name":"Reformierakond"
+	}, 
+"region": {
+	"id":"SM",
+	"name":"Saaremaa"
+	},
+"person": {
+	"id":"37907034623",
+	"name":"Eduard Ekskavaator"
+	}
+}

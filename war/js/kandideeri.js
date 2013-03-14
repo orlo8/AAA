@@ -7,8 +7,6 @@ $(document).ajaxStop(function (){
 		$(".vead").remove();
 		ringkond.removeClass("vigane");
 		erakond.removeClass("vigane");
-
-
 		if(ringkond.val()==""){
 			ringkond.after('<p class="vead">Palun vali ringkond</p>');
 			viga=true;		
@@ -21,18 +19,15 @@ $(document).ajaxStop(function (){
 		}
 		if(viga) return false;
 	});
+	
+	var erakonnad = ["Eestimaa rohelised", "Keskerakond", "Sotsiaaldemokraadid"];
+	$( "#erakonnasisestus" ).autocomplete({
+	  source: erakonnad
+	});
 
-	$(function() {
-		
-		var erakonnad = ["Eestimaa rohelised", "Keskerakond", "Sotsiaaldemokraadid"];
-		    $( "#erakonnasisestus" ).autocomplete({
-		      source: erakonnad
-		    });
-
-		var ringkonnad=["Harjumaa", "Tartumaa", "Eestimaa"];
-			$( "#ringkonnasisestus" ).autocomplete({
-		      source: ringkonnad
-		    });
-  	});
+	var ringkonnad=["Harjumaa", "Tartumaa", "Eestimaa"];
+	$( "#ringkonnasisestus" ).autocomplete({
+	  source: ringkonnad
+	});
 
 });

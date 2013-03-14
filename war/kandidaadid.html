@@ -4,46 +4,48 @@
 		<meta content="text/html; charset=utf-8"
 		http-equiv="Content-Type" />
 		<title>E-valimised 2013</title>
+		<link rel="stylesheet" href="styles/jquery-ui.css" />
+		  <script src="js/jquery-ui.js"></script>
+		 <script src="js/kandidaadid.js"></script>
 	</head>
 	<body>
 		<div id="sisu">
 			<div id="ringkonnadiv">
-				<h1>Ringkonnad</h1>
-				<label for="ringkonnasisestus">Ringkond</label><input type="text" id="ringkonnasisestus"/>
-				<select id="ringkond" size="10">
-					<option value="1">Tallinn</option>
-					<option value="2">Tartu</option>
-					<option value="3">Pärnu</option>
-					<option value="4">Viljandi</option>
-					<option value="5">Rakvere</option>
-				</select>
+				<label for="ringkonnaotsing">Ringkond</label><input type="text" id="ringkonnaotsing"/>
 			</div>
 			<div id="erakonnadiv">
-				<h1>Erakonnad</h1>
-				<label for="erakonnasisestus">Erakond</label><input type="text" id="erakonnasisestus"/>
-				<select id="erakond" size="10">
-					<option value="1">Eestimaa Rohelised</option>
-					<option value="2">Eesti Keskerakond</option>
-					<option value="3">Eesti Reformierakond</option>
-					<option value="4">Sotsiaaldemokraatlik Erakond</option>
-					<option value="5">Eestimaa Rahvaliit</option>
-				</select>
+				<label for="erakonnaotsing">Erakond</label><input type="text" id="erakonnaotsing"/>
 			</div>
+			<a href="/" id="otsikandidaati" >Otsi</a>
+			</br>
 			<div id="nimekirjadiv">
 				<h1>Nimekiri</h1>
-				<label for="nimesisestus">Nimi</label><input type="text" id="nimesisestus"/>
-				<select id="nimi" size="10">
-					<option value="1">Sven Mikser</option>
-					<option value="2">Mart Laar</option>
-					<option value="3">Juhan Parts</option>
-					<option value="4">Edgar Savisaar</option>
-					<option value="5">Jüri Ratas</option>
-				</select>
-			</div>
-			<a href="/" id="otsikandidaati">Otsi</a>
-			<p id="valimisabi">
+				<table id="nimekiri">
+					<tr>
+						<th>Nr.</th>
+						<th>Piirkond</th>
+						<th>Erakond</th>
+						<th>Kandidaat</th>
+					</tr>
+                  <tr>
+						<td>1</td>
+						
+						<td>Lasnamäe</td>
+						<td>Keskerakond</td>
+						<td>Edgar savisaar</td>
+					</tr>
+                    <tr class ="lightblue">
+						<td>2</td>
+						<td>Kesklinn</td>
+						<td>Reformierakond</td>
+						<td>Andrus Ansip</td>
+					</tr>
+				</table>
+				<p id="valimisabi">
 				Klõpsa nimel et valida
-			</p>
+				</p>
+			</div>
+			
 		</div>
 	</body>
 </html>
