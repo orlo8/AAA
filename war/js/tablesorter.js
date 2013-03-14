@@ -1,5 +1,6 @@
-$(document).ready(function() {
-		$("#tulemustetabel").tablesorter({sortList:[[0,0], [1,0]]});
-		
+
+$(document).ajaxStop(function() {
+		$("#tulemustetabel").tablesorter({sortList:[[0,0]]});
+		$("#tulemusedkandidaadid").tablesorter({sortList:[[0,0]]});
 		console.log("tabel");
 });

@@ -1,5 +1,11 @@
 @charset "utf-8";
 /* CSS Document */
+th.header{
+	background-image: url(../img/bg.gif);
+	background-repeat: no-repeat;
+	background-position: center right;
+	cursor: pointer;
+}
 th.headerSortUp { 
     background-image: url(../img/asc.gif);
     background-color: #3399FF; 
@@ -13,3 +19,15 @@ th.headerSortDown {
 	background-repeat: no-repeat;
 	background-position: center right;
 } 
+#tulemusedkandidaadid th{
+	width: 150px;
+}
+#tulemusedkandidaadid td:nth-child(2){
+	text-align: center;
+}
+#tulemustetabel th:nth-child(2){
+	width: 150px;
+}
+#tulemustetabel td:nth-child(2){
+	text-align: center;
+}

@@ -8,9 +8,9 @@ $(document).ready(function(){
 			return false;
 		}
 		else if (href == "tulemused.html"){
-			$('#sisu').empty().html('<img id="ajaxLoader" src="img/ajax-loader.gif" />')
+			$('#sisu').empty().html('<img id="ajaxLoader" src="img/ajax-loader.gif" />');
 			setTimeout(function(){
-				$('#sisu').load(href+" #sisu");
+				$('#sisu').load(href);
 			},1000);
 			return false;
 		}
