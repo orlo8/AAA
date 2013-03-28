@@ -1,12 +1,4 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?><web-app xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
-	<servlet>
-		<servlet-name>AAA</servlet-name>
-		<servlet-class>veebirakendused.AAAServlet</servlet-class>
-	</servlet>
-	<servlet-mapping>
-		<servlet-name>AAA</servlet-name>
-		<url-pattern>/aaa</url-pattern>
-	</servlet-mapping>
 	<welcome-file-list>
 		<welcome-file>index.html</welcome-file>
 	</welcome-file-list>
@@ -22,4 +14,22 @@
   <servlet-name>SystemServiceServlet</servlet-name>
   <url-pattern>/_ah/spi/*</url-pattern>
  </servlet-mapping>
+ <servlet>
+        <servlet-name>KandidaadidServlet</servlet-name>
+        <servlet-class>veebirakendused.Kandidaadid</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>KandidaadidServlet</servlet-name>
+        <url-pattern>/kandidaadid</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>TulemusedServlet</servlet-name>
+        <servlet-class>veebirakendused.Tulemused</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>TulemusedServlet</servlet-name>
+        <url-pattern>/tulemused</url-pattern>
+    </servlet-mapping>
 </web-app>
