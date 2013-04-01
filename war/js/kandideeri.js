@@ -1,5 +1,5 @@
 console.log("kandideeri.js");
-$(document).ajaxComplete(function (){
+$(document).ready(function (){
 	ringkond=$("#ringkond");
 	erakond=$("#erakond");
 	$("#kandideeriform").submit(function(){
@@ -22,11 +22,16 @@ $(document).ajaxComplete(function (){
 	});
 	
 	var erakonnad = ["Eestimaa rohelised", "Keskerakond", "Sotsiaaldemokraadid"];
+	
+	//erakond.autocomplete( "destroy" );
+	
 	erakond.autocomplete({
 	  source: erakonnad
 	});
-
+	
 	var ringkonnad=["Harjumaa", "Tartumaa", "Eestimaa"];
+	
+	//ringkond.autocomplete( "destroy" );
 	ringkond.autocomplete({
 	  source: ringkonnad
 	});

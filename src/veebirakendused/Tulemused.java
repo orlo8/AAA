@@ -69,9 +69,10 @@ public class Tulemused extends HttpServlet {
 
 			ArrayList<Kandidaat> kandidaadid = new ArrayList<Kandidaat>();
 			while (rs.next()) {
-				//piirkonna järgi - üleval piirkond nt. Harjumaa, all erakond, kandidaat, kandidaadi nr., häälte arv?
-				//riigi järgi - kogu riik, erakond 1,kandidaadi nr., kandidaat ,hääli..
-				//partei järgi - Valitud partei nt. üleval partei 1, all kandidaadi nimi ja häälte arv
+				//piirkonna järgi - üleval piirkond nt. Harjumaa, all erakond, häälte arv?
+				//riigi järgi - kogu riik, erakond 1 ,hääli..
+				//partei järgi - partei 1, hääli
+				//number nimi, partei, piirkond, hääli
 				
 				Partei partei = new Partei(rs.getInt("partei_id"),
 						rs.getString("partei_nimi"));
