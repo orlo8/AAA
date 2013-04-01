@@ -1,11 +1,11 @@
 console.log("kandidaadid.js");
 $(document).ajaxComplete(function (){
-	var erakonnad = ["Eestimaa rohelised", "Keskerakond", "Sotsiaaldemokraadid"];
+	var erakonnad = ["Erakond1", "Erakond2", "Erakond3"];
 	erakonnaotsing=$( "#erakonnaotsing" );
 	erakonnaotsing.autocomplete({
 	  source: erakonnad
 	});
-	var ringkonnad=["Harjumaa", "Tartumaa", "Eestimaa"];
+	var ringkonnad=["Valgamaa", "Tartumaa", "Harjumaa"];
 	ringkonnaotsing=$( "#ringkonnaotsing" );
 	ringkonnaotsing.autocomplete({
 	  source: ringkonnad
@@ -19,35 +19,52 @@ $(document).ajaxComplete(function (){
 		if(ringkonnaotsing.val()!=="" && erakonnaotsing.val()!==""){				
 			var nimekiri=$("#nimekiri");
 			nimekiri.find("tr:gt(0)").remove();
-			$.getJSON("data/findCandidatesByPartyAndRegion.json", function(result) {
-				for (var i in result.candidates){
-					var nimi =result.candidates[i].person.name;
-					var id =result.candidates[i].id;
-					filltable(nimekiri,id,ringkonnaotsing.val(),erakonnaotsing.val(),nimi);
+			$.getJSON("kandidaadid?piirkond="+ringkonnaotsing.val()+"&partei="+erakonnaotsing.val(), function(result) {
+				for (var i in result){
+					var nimi =result[i].isik.nimi;
+					var id =result[i].id;
+					var erakond=result[i].partei.nimi;
+					var ringkond=result[i].piirkond.nimi;
+					filltable(nimekiri,id,ringkond,erakond,nimi);
 				}
 			});
 		}
 		else if(ringkonnaotsing.val()!==""){
-			$.getJSON("data/findCandidatesByRegion.json", function(result) {			
+			$.getJSON("kandidaadid?piirkond="+ringkonnaotsing.val(), function(result) {			
 				var nimekiri=$("#nimekiri");
 				nimekiri.find("tr:gt(0)").remove();
-				for (var i in result.candidates){
-					var nimi =result.candidates[i].person.name;
-					var id =result.candidates[i].id;
-					var erakond=result.candidates[i].party.name;
-					filltable(nimekiri,id,ringkonnaotsing.val(),erakond,nimi);
+				for (var i in result){
+					var nimi =result[i].isik.nimi;
+					var id =result[i].id;
+					var erakond=result[i].partei.nimi;
+					var ringkond=result[i].piirkond.nimi;
+					filltable(nimekiri,id,ringkond,erakond,nimi);
 				}
 			});
 		}
 		else if(erakonnaotsing.val()!==""){
-			$.getJSON("data/findCandidatesByParty.json", function(result) {								
+			$.getJSON("kandidaadid?partei="+erakonnaotsing.val(), function(result) {								
 				var nimekiri=$("#nimekiri");
 				nimekiri.find("tr:gt(0)").remove();
-				for (var i in result.candidates){
-					var nimi =result.candidates[i].person.name;
-					var id =result.candidates[i].id;
-					var ringkond=result.candidates[i].region.name;
-					filltable(nimekiri,id,ringkond,erakonnaotsing.val(),nimi);
+				for (var i in result){
+					var nimi =result[i].isik.nimi;
+					var id =result[i].id;
+					var erakond=result[i].partei.nimi;
+					var ringkond=result[i].piirkond.nimi;
+					filltable(nimekiri,id,ringkond,erakond,nimi);
+				}
+			});
+		}
+		else{
+			$.getJSON("kandidaadid", function(result) {								
+				var nimekiri=$("#nimekiri");
+				nimekiri.find("tr:gt(0)").remove();
+				for (var i in result){
+					var nimi =result[i].isik.nimi;
+					var id =result[i].id;
+					var erakond=result[i].partei.nimi;
+					var ringkond=result[i].piirkond.nimi;
+					filltable(nimekiri,id,ringkond,erakond,nimi);
 				}
 			});
 		}
