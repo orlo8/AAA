@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 	<head>
 		<meta content="text/html; charset=utf-8"
@@ -6,141 +6,78 @@
 		<title>E-valimised 2013</title>
         <link rel="stylesheet" href="styles/tulemused.css">
         <link rel="stylesheet" type="text/css" href="styles/print.css" media="print" />
-        <script src="js/jquery.tablesorter.js"></script> 
-        <script src="js/tablesorter.js"></script>  
+		<script src="js/jquery.dataTables.js"></script> 
+        <script src="js/tulemused.js"></script>  
 	</head>
 	<body>
 		</div>
 		<div id="sisu">
   	  		<div id="erakonnatulemdiv">
-				<p><strong>Häälte jagunemine erakondade lõikes</strong></p>
+				<p><strong>Häälte jagunemine kandidaatide lõikes terves riigis</strong></p>
         			<table id="tulemustetabel">
-                <thead> 
-                <tr>
-                    <th class="header">Erakond</th>
-                    <th class="header">Häälte arv</th>
-                </tr>
+                <thead>
+				<th>Nr.</th>
+				<th>Piirkond</th>
+					<th>Erakond</th>
+					<th>Nimi</th>
+				<th>Hääli</th>
                 </thead>
                 <tbody>
-                <tr>
-                    <td>Eesti Reformierakond</td>
-                    <td>164255</td>
-                </tr>
-                <tr class="lightblue">
-                    <td>Eesti Keskerakond</td>
-                    <td>134124</td>
-                </tr>
-                <tr>
-                    <td>Erakond Isamaa ja Res Publica Liit</td>
-                    <td>118023</td>
-                </tr>
-                <tr class="lightblue">
-                    <td>Sotsiaaldemokraatlik Erakond</td>
-                    <td>98307</td>
-                </tr>
-                <tr>
-                    <td>Erakond Eestimaa Rohelised</td>
-                    <td>21824</td>
-                </tr>
-                <tr class="lightblue">
-                    <td>Eestimaa Rahvaliit</td>
-                    <td>12184</td>
-                </tr>
-                <tr>
-                    <td>Vene Erakond Eestis</td>
-                    <td>5029</td>
-                </tr>
-                <tr class="lightblue">
-                    <td>Erakond Eesti Kristlikud Demokraadid</td>
-                    <td>2934</td>
-                </tr>
-                <tr>
-                    <td>Eesti Iseseisvuspartei</td>
-                    <td>2571</td>
-                </tr>
-                <tr class="lightblue">
-                    <td>Ükskkandidaadid</td>
-                    <td>15822</td>
-                </tr>
                 </tbody>
 				</table>
 			</div>
-			<div id="piirkonnatulemdiv">
-				<p><strong>Häälte jagunemine piirkondade lõikes</strong></p>
-				<img src="riik.png" height="300">    
+			<div id="parteidiv">
+				<p><strong>Häälte jagunemine konkreetse partei lõikes</strong></p>
+				<select id="erakonnavalik">
+				<option value="Erakond1">Erakond1</option>
+				<option value="Erakond2">Erakond2</option>
+				<option value="Erakond3">Erakond3</option>
+				<option value="Erakond4">Erakond4</option>
+				<option value="Erakond5">Erakond5</option>
+				<option value="Erakond6">Erakond6</option>
+				</select>
+				<table id="erakonnatulemused">
+					<thead>
+				<th>Nr.</th>
+				<th>Piirkond</th>
+					<th>Erakond</th>
+					<th>Nimi</th>
+				<th>Hääli</th>
+				  </thead>
+                <tbody>
+                </tbody>
+				</table> 
 			</div>
 			<div id="kandidaaditulemdiv">
-				<p><strong>Häälte jagunemine kandidaatide lõikes</strong></p>
+				<p><strong>Häälte jagunemine erakondade lõikes</strong></p>
 				<table id="tulemusedkandidaadid">
 					<thead>
-					<tr>
-						<th>Kandidaat</th>
+						<th>Erakond</th>
 						<th>Häälte arv</th>
-					</tr>
 					</thead>
 					<tbody>
-                    <tr >
-						<td>Edgar savisaar</td>
-						<td>3,559</td>
-					</tr>
-                    <tr class="lightblue">
-						<td>Andrus Ansip</td>
-						<td>3,043</td>
-					</tr>
-                    <tr >
-						<td>Mihhail Stalnuhhin</td>
-						<td>1,838</td>
-					</tr>
-                    <tr class="lightblue">
-						<td>Urmas Paet</td>
-						<td>1,708</td>
-					</tr>
-                    <tr >
-						<td>Mart Laar</td>
-						<td>1,530</td>
-					</tr>
-                    <tr class="lightblue">
-						<td>Sven Mikser</td>
-						<td>1,450</td>
-					</tr>
-                    <tr >
-						<td>Keit Pentus</td>
-						<td>1,359</td>
-					</tr>
-                    <tr class="lightblue">
-						<td>Jüri Ratas</td>
-						<td>1,207</td>
-					</tr>
-                    <tr >
-						<td>Urmas Kuuse</td>
-						<td>1,189</td>
-					</tr>
-                    <tr class="lightblue">
-						<td>Kaja Kallas</td>
-						<td>1,147</td>
-					</tr>
-                    <tr >
-						<td>Taavi Rõivas</td>
-						<td>1,145</td>
-					</tr> 
-                    <tr class="lightblue">
-						<td>Igor Gräzin</td>
-						<td>1,060</td>
-					</tr>
-                    <tr >
-						<td>Juhan Parts</td>
-						<td>1,022</td>
-					</tr>
-                    <tr class="lightblue">
-						<td>Deniss Boroditš</td>
-						<td>1,006</td>
-					</tr> 
 					</tbody>
 				</table>
 			</div>
-			<div id="reaalajasdiv">
-				<p><strong>Hääletustulemused reaalajas</strong></p>
-				<img src="reaalajas.png" height="300"> 
+			<div id="piirkonnatulemdiv">
+				<p><strong>Hääletustulemused piirkonna järgi</strong></p>
+				<select id="piirkonnavalik">
+				<option value="Harjumaa">Harjumaa</option>
+				<option value="Tartumaa">Tartumaa</option>
+				<option value="Valgamaa">Valgamaa</option>
+				<option value="Võrumaa">Võrumaa</option>
+				<option value="Jõgevamaa">Jõgevamaa</option>
+				<option value="Pärnumaa">Pärnumaa</option>
+				<option value="Järvamaa">Järvamaa</option>
+				</select>
+				<table id="tulemusedpiirkonnas">
+					<thead>
+				<th>Erakond</th>
+				<th>Häälte arv</th>
+				  </thead>
+                <tbody>
+                </tbody>
+				</table> 
 			</div>
 		</div>
 	</body>

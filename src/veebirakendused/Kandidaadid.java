@@ -22,7 +22,7 @@ public class Kandidaadid extends HttpServlet {
 		response.setContentType("application/json; charset=UTF-8");
 		response.setCharacterEncoding("UTF-8");
 		PrintWriter out = response.getWriter();
-		
+
 		Gson gson = new Gson();
 
 		PreparedStatement findByPartyAndRegion = null;
@@ -30,6 +30,7 @@ public class Kandidaadid extends HttpServlet {
 		PreparedStatement findByRegion = null;
 		PreparedStatement findByName = null;
 		PreparedStatement findAll = null;
+		PreparedStatement suggestName = null;
 
 		Connection c = null;
 		try {
@@ -65,6 +66,11 @@ public class Kandidaadid extends HttpServlet {
 							+ "INNER JOIN Isik ON Kandidaat.isik=Isik.id "
 							+ "INNER JOIN Piirkond ON Kandidaat.Piirkond=Piirkond.id "
 							+ "WHERE Isik.nimi LIKE ?");
+			suggestName = c
+					.prepareStatement("SELECT Isik.nimi AS isik_nimi FROM Isik "
+							+ "INNER JOIN Kandidaat ON Kandidaat.isik=Isik.id "
+							+ "WHERE Isik.nimi LIKE ?");
+			
 			findAll = c
 					.prepareStatement("SELECT Kandidaat.id AS kandidaat_id, Partei.id AS partei_id, Partei.nimi AS partei_nimi, "
 							+ "Isik.id AS isik_id, Isik.nimi AS isik_nimi, Piirkond.id AS piirkond_id, Piirkond.nimi AS piirkond_nimi FROM Partei "
@@ -92,6 +98,17 @@ public class Kandidaadid extends HttpServlet {
 			} else if (request.getParameterMap().containsKey("nimi")) {
 				findByName.setString(1, request.getParameter("nimi") + "%");
 				rs = findByName.executeQuery();
+			} else if (request.getParameterMap().containsKey("term")) {
+				suggestName.setString(1, request.getParameter("term") + "%");
+				rs = suggestName.executeQuery();
+				Suggestion suggestion = new Suggestion();
+				while (rs.next()) {
+					suggestion.add(rs.getString("isik_nimi"));
+					
+				}
+
+				out.println(gson.toJson(suggestion));
+				return;
 			} else {
 				rs = findAll.executeQuery();
 			}

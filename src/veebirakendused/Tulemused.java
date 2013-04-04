@@ -20,76 +20,47 @@ public class Tulemused extends HttpServlet {
 			throws ServletException, IOException {
 
 		PrintWriter out = response.getWriter();
+		response.setContentType("application/json; charset=UTF-8");
+		response.setCharacterEncoding("UTF-8");
 		Gson gson = new Gson();
-
-		//PreparedStatement findByPartyAndRegion = null;
-		PreparedStatement findByParty = null;
-		PreparedStatement findByRegion = null;
-		PreparedStatement findByName = null;
+		
 		PreparedStatement findAll = null;
 
 		Connection c = null;
 		try {
-
 			c = DriverManager
-					.getConnection("jdbc:google:rdbms://aaaandmebaas:aaadb");
-			
-			//findByPartyAndRegion = c
-				//	.prepareStatement("SELECT id, nimi FROM valimised.partei WHERE partei=? AND piirkond=?");
-			findByParty = c
-					.prepareStatement("SELECT id, nimi FROM valimised.partei WHERE partei=?");
-			findByRegion = c
-					.prepareStatement("SELECT id, nimi FROM valimised.partei WHERE piirkond=?");
-			findByName = c
-					.prepareStatement("SELECT id, nimi FROM valimised.partei WHERE nimi=?");
+					.getConnection("jdbc:google:rdbms://aaaandmebaas:aaadb/valimised");
 			findAll = c
-					.prepareStatement("SELECT id, nimi FROM valimised.partei");
-
+					.prepareStatement("SELECT Kandidaat.id AS kandidaat_id, Partei.id AS partei_id, Partei.nimi AS partei_nimi, "
+							+ "Isik.id AS isik_id, Isik.nimi AS isik_nimi, Piirkond.id AS piirkond_id, Piirkond.nimi AS piirkond_nimi, Count(Haal.kandidaat) AS haalte_arv FROM Partei "
+							+ "INNER JOIN  Kandidaat ON Partei.id=Kandidaat.partei "
+							+ "INNER JOIN Isik ON Kandidaat.isik=Isik.id "
+							+ "INNER JOIN Piirkond ON Kandidaat.Piirkond=Piirkond.id "
+							+ "LEFT JOIN Haal ON Haal.Kandidaat = Kandidaat.id "
+							+ "GROUP BY Isik.id ORDER BY haalte_arv DESC");
 			ResultSet rs = null;
-
-//			if (request.getParameterMap().containsKey("piirkond")
-//					&& request.getParameterMap().containsKey("partei")) {
-//				findByPartyAndRegion.setString(1,
-//						request.getParameter("partei"));
-//				findByPartyAndRegion.setString(2,
-//						request.getParameter("piirkond"));
-//				rs = findByPartyAndRegion.executeQuery();
-			if (request.getParameterMap().containsKey("piirkond")) {
-				findByRegion.setString(1, request.getParameter("piirkond"));
-				rs = findByRegion.executeQuery();
-			} else if (request.getParameterMap().containsKey("partei")) {
-				findByParty.setString(1, request.getParameter("partei"));
-				rs = findByParty.executeQuery();
-			} else if (request.getParameterMap().containsKey("nimi")) {
-				findByName.setString(1, request.getParameter("nimi"));
-				rs = findByName.executeQuery();
-			} else {
-				rs = findAll.executeQuery();
-			}
-
-			ArrayList<Kandidaat> kandidaadid = new ArrayList<Kandidaat>();
+			rs = findAll.executeQuery();
+			ArrayList<Haal> haaled = new ArrayList<Haal>();
 			while (rs.next()) {
-				//piirkonna j‰rgi - ¸leval piirkond nt. Harjumaa, all erakond, h‰‰lte arv?
-				//riigi j‰rgi - kogu riik, erakond 1 ,h‰‰li..
-				//partei j‰rgi - partei 1, h‰‰li
-				//number nimi, partei, piirkond, h‰‰li
-				
+
 				Partei partei = new Partei(rs.getInt("partei_id"),
 						rs.getString("partei_nimi"));
-				Isik isik = new Isik(rs.getInt("isiku_id"),
-						rs.getString("isiku_nimi"));
-				Piirkond piirkond = new Piirkond(rs.getInt("piirkonna_id"),
-						rs.getString("piirkonna_nimi"));
-				kandidaadid.add(new Kandidaat(rs.getInt("kandidaadi_ID"),
-						partei, piirkond, isik));
+				Isik isik = new Isik(rs.getInt("isik_id"),
+						rs.getString("isik_nimi"));
+				Piirkond piirkond = new Piirkond(rs.getInt("piirkond_id"),
+						rs.getString("piirkond_nimi"));
+				int haali = rs.getInt("haalte_arv");
+				haaled.add(new Haal(haali, new Kandidaat(rs
+						.getInt("kandidaat_id"), partei, piirkond, isik)));
+
 			}
-			out.println(gson.toJson(kandidaadid));
+			out.println(gson.toJson(haaled));
 
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
+			out.println(e);
 		}
-
 		out.close();
 	}
 }

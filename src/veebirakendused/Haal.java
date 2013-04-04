@@ -1,33 +1,27 @@
 package veebirakendused;
 
 public class Haal {
-	private int id;
+	private int haali;
 	private Kandidaat kandidaat;
-	private Isik isik;
-	
-	
-	
-	public Haal(int id, Kandidaat kandidaat, Isik isik) {
-		this.id = id;
+
+	public Haal(int haali, Kandidaat kandidaat) {
+		this.haali = haali;
 		this.kandidaat = kandidaat;
-		this.isik = isik;
 	}
-	public int getId() {
-		return id;
+
+	public int getHaali() {
+		return haali;
 	}
-	public void setId(int id) {
-		this.id = id;
+
+	public void setHaali(int haali) {
+		this.haali = haali;
 	}
+
 	public Kandidaat getKandidaat() {
 		return kandidaat;
 	}
+
 	public void setKandidaat(Kandidaat kandidaat) {
 		this.kandidaat = kandidaat;
-	}
-	public Isik getIsik() {
-		return isik;
-	}
-	public void setIsik(Isik isik) {
-		this.isik = isik;
 	}
 }

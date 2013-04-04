@@ -1,6 +1,8 @@
 package veebirakendused;
 
-public class Piirkond {
+import java.io.Serializable;
+
+public class Piirkond implements Serializable{
 	private int id;
 	private String nimi;
 

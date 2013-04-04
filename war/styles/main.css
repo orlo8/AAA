@@ -8,6 +8,10 @@ body{
 #header{
 	overflow: hidden;
 }
+#footer{
+	margin-top: 100px;
+	clear: left;
+}
 #sisu{
 	/*margin:2%;*/
 	float:left;
@@ -78,11 +82,11 @@ td{
 th{
 	background-color: #DDDDFF;
 }
-tr.lightblue{
+.lightblue{
 	background-color: #F5F5FF;
 }
 
-#piirkonnatulemdiv, #reaalajasdiv,
+#piirkonnatulemdiv, #parteidiv,
 #erakonnatulemdiv, #kandidaaditulemdiv {
 	margin-right:5%;
 	float:left;
@@ -115,3 +119,12 @@ tr.lightblue{
 	display:block;
    	margin:auto;
 }
+#nimekiri{
+	cursor: pointer;
+}
+
+.autocomplete-suggestions { border: 1px solid #999; background: #FFF; overflow: auto;
+	min-width:150px;}
+.autocomplete-suggestion { padding: 2px 5px; white-space: nowrap; overflow: hidden; }
+.autocomplete-selected { background: #F0F0F0; }
+.autocomplete-suggestions strong { font-weight: normal; color: #3399FF; }

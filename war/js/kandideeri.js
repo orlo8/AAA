@@ -23,17 +23,15 @@ $(document).ready(function (){
 	
 	var erakonnad = ["Eestimaa rohelised", "Keskerakond", "Sotsiaaldemokraadid"];
 	
-	//erakond.autocomplete( "destroy" );
-	
 	erakond.autocomplete({
-	  source: erakonnad
+	  lookup: erakonnad
 	});
 	
 	var ringkonnad=["Harjumaa", "Tartumaa", "Eestimaa"];
 	
 	//ringkond.autocomplete( "destroy" );
 	ringkond.autocomplete({
-	  source: ringkonnad
+	  lookup: ringkonnad
 	});
 
 });

@@ -32,4 +32,23 @@
         <servlet-name>TulemusedServlet</servlet-name>
         <url-pattern>/tulemused</url-pattern>
     </servlet-mapping>
+ 
+    <servlet-mapping>
+        <servlet-name>HaaletaServlet</servlet-name>
+        <url-pattern>/haaleta</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>HaaletaServlet</servlet-name>
+        <servlet-class>veebirakendused.Haaleta</servlet-class>
+    </servlet>
+
+   <servlet>
+        <servlet-name>KandideeriServlet</servlet-name>
+        <servlet-class>veebirakendused.Kandideeri</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>KandideeriServlet</servlet-name>
+        <url-pattern>/kandideeri</url-pattern>
+    </servlet-mapping>
 </web-app>

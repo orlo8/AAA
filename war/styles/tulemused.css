@@ -1,33 +1,21 @@
 @charset "utf-8";
 /* CSS Document */
-th.header{
-	background-image: url(../img/bg.gif);
-	background-repeat: no-repeat;
-	background-position: center right;
-	cursor: pointer;
+.sorting{
+	padding-right:15px;
+	background: url(../img/bg.gif) no-repeat center right #88DDFF;
 }
-th.headerSortUp { 
-    background-image: url(../img/asc.gif);
-    background-color: #3399FF; 
-	background-repeat: no-repeat;
-	background-position: center right;
-} 
-th.headerSortDown { 
-    background-image: url(../img/desc.gif); 
-    background-color: #3399FF; 
+.sorting_asc {
 	
-	background-repeat: no-repeat;
-	background-position: center right;
+	padding-right:15px;
+    background: url(../img/asc.gif) no-repeat center right;
+    background-color: #3399FF; 
 } 
-#tulemusedkandidaadid th{
-	width: 150px;
-}
+.sorting_desc { 
+	
+	padding-right:15px;
+    background: url(../img/desc.gif) no-repeat center right; 
+    background-color: #3399FF; 
+} 
 #tulemusedkandidaadid td:nth-child(2){
-	text-align: center;
-}
-#tulemustetabel th:nth-child(2){
-	width: 150px;
-}
-#tulemustetabel td:nth-child(2){
 	text-align: center;
 }
