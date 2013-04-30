@@ -19,3 +19,6 @@
 #tulemusedkandidaadid td:nth-child(2){
 	text-align: center;
 }
+#kaardidiv{
+	clear:left;
+	}

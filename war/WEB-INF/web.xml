@@ -51,4 +51,14 @@
         <servlet-name>KandideeriServlet</servlet-name>
         <url-pattern>/kandideeri</url-pattern>
     </servlet-mapping>
+    
+	<servlet>
+	    <servlet-name>ManifestServlet</servlet-name>
+	    <jsp-file>/cache.manifest.jsp</jsp-file>
+	</servlet>
+	
+	<servlet-mapping>
+	    <servlet-name>ManifestServlet</servlet-name>
+	    <url-pattern>/cache.manifest</url-pattern>
+	</servlet-mapping>
 </web-app>
