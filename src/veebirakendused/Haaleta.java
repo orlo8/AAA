@@ -63,7 +63,10 @@ public class Haaleta extends HttpServlet {
 					&& request.getParameterMap().containsKey("tyhista")) {
 				tyhistaHaalQuery.setInt(1,
 						Integer.parseInt(request.getParameter("isik")));
+				String [] tyhistatud={"tyhistatud"};
+				out.print(gson.toJson(tyhistatud));
 				tyhistaHaalQuery.executeQuery();
+				
 			}
 			else if (request.getParameterMap().containsKey("isik")
 					&& request.getParameterMap().containsKey("kandidaat")) {
@@ -73,15 +76,18 @@ public class Haaleta extends HttpServlet {
 						Integer.parseInt(request.getParameter("isik")));
 				haaletaQuery.setInt(3,
 						Integer.parseInt(request.getParameter("isik")));
+				String [] haaletatud={"haaletatud"};
+				out.print(gson.toJson(haaletatud));
 				haaletaQuery.executeQuery();
+				
 			}
 			
 			
 
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
-			e.printStackTrace();
-			out.println(e);
+			//e.printStackTrace();
+			//out.println(e);
 		}
 	}
 }

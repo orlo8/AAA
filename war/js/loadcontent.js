@@ -10,6 +10,8 @@ $(document).ready(function(){
 		params[tmparr[0]] = tmparr[1];
 	}
 	if(params.leht!==null){
+		
+		history.pushState({leht: params.leht}, "", window.location.search);
 		$('#sisu').load(params.leht);				
 		$('#peamenyy a').removeClass("aktiivne");
 		$('a[href*="'+params.leht+'"]').addClass("aktiivne");

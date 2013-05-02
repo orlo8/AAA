@@ -24,7 +24,7 @@ body{
 	width: 150px;
 	margin: 10pt;
 }
-#ringkonnasisestus, #ringkond, #erakonnasisestus, 
+#ringkonnasisestus, #ringkond, #erakonnasisestus,
 #erakond, #nimi{
 	width: 100%;
 	margin: 1pt;
@@ -52,8 +52,8 @@ body{
 #peamenyy :hover{
 	background-color: #dd6666;
 }
-#loginid, #logingoogle, #kandideerinupp, 
-#otsikandidaati, #loginid, #logingoogle{	
+#loginid, #logingoogle, #kandideerinupp,
+#otsikandidaati, #loginid, #logingoogle{
 	padding:4pt 4pt;
 	margin: 10pt;
 	background-color: #6666dd;
@@ -94,12 +94,15 @@ th{
 #kandideerinupp:hover {
 	background-color: #dd6666;
 }
-#login{
-	float: right !important;
+@media (min-width: 520px){
+  #login{
+    float: right !important;
+  }
 }
+
 #logimine{
 	margin: 20%;
-	padding: 4pt;	
+	padding: 4pt;
 }
 #loginid, #logingoogle{
 	margin: 5pt;

@@ -161,7 +161,7 @@ function haslocalstorage(){
 }
 function initializeGoogleMaps(){
 	
-	var eesti=new google.maps.LatLng(58.493694,25.158281);//Eesti keskpunkt
+	var eesti=new google.maps.LatLng(58.493694,25.358281);//Eesti keskpunkt
 	
 	var tartu=new google.maps.LatLng(58.3812,26.7435);
 	var tallinn=new google.maps.LatLng(59.436961,24.753575);
@@ -183,6 +183,17 @@ function initializeGoogleMaps(){
 	paide,	viljandi,valga,p6lva,v6ru,j6hvi,j6geva,rakvere];
 	piirkonnad=["Tartumaa", "Harjumaa", "Hiiumaa", "Saaremaa", "Läänemaa", "Pärnumaa", "Raplamaa",
 	"Järvamaa",	"Viljandimaa", "Valgamaa", "Põlvamaa", "Võrumaa", "Ida-Virumaa","Jõgevamaa","Lääne-Virumaa"];
+	erakonnav2rvid={}
+	erakonnav2rvid["Hääli pole"]='red';
+	erakonnav2rvid["Erakond1"]='orange';
+	erakonnav2rvid["Erakond2"]='blue';
+	erakonnav2rvid["Erakond3"]='green';
+	erakonnav2rvid["Erakond4"]='yellow';
+	erakonnav2rvid["Erakond5"]='purple';
+	erakonnav2rvid["Erakond6"]='pink';
+	
+	
+	
 	
 	var mapProp = {	center:eesti, zoom:7,	draggable: false, scrollwheel: false,
 		streetViewControl: false, mapTypeControl: false, mapTypeId:google.maps.MapTypeId.ROADMAP
@@ -194,16 +205,16 @@ function initializeGoogleMaps(){
 		map.setCenter(eesti);
 		google.maps.event.trigger(map, 'resize'); 
 	});	
-
-
-
+	
+	
+	
 	
 	
 	var boxText = document.createElement("div");
 	boxText.style.cssText = "border: 1px solid black; margin-top: 8px; background: lightblue; padding: 5px;";
 	boxText.innerHTML = "Viga, kontrolli võrguühendust";
 	var myOptions = { content: boxText, pixelOffset: new google.maps.Size(-50, 0)
-		,zesinesIndex: null, boxStyle: { opacity: 0.75,width: "100px"}
+		,zesinesIndex: null, boxStyle: { opacity: 0.85,width: "100px"}
 		,closeBoxMargin: "10px 2px 2px 2px"
 		,infoBoxClearance: new google.maps.Size(1, 1)
 		,isHidden: false
@@ -215,19 +226,41 @@ function initializeGoogleMaps(){
 	addMarkers(asukohad);
 	
 	function addMarkers(asukohad){
-		for(var i=0;i<asukohad.length;i++){
-			var marker=new google.maps.Marker({position:asukohad[i]});
-			marker.setMap(map);
-			google.maps.event.addListener(marker, 'click', function() {
-				updateMarker(asukohad,this.getPosition());
-				infobox.open(map,this);
-			}); 
-		}
+		$.getJSON("tulemused", function(tulemus) {
+			for(var i=0;i<asukohad.length;i++){
+				var marker=new google.maps.Marker({position:asukohad[i]});
+				
+				erakonnad=[];	
+				
+				erakonnad=erakonnadPiirkonnaj2rgi(tulemus,piirkonnad[i]);
+				var suurimindeks=-1;
+				var rohkeimhaali=0;
+				for(e in erakonnad){
+					if(erakonnad[e].haali>rohkeimhaali){
+						suurimindeks=e;
+						rohkeimhaali=erakonnad[e].haali;
+					}
+				}
+				if(suurimindeks!==-1){
+					v2rv=erakonnav2rvid[erakonnad[suurimindeks].nimi];
+					marker.setIcon('http://maps.google.com/mapfiles/ms/icons/'+v2rv+'-dot.png');
+				}
+				
+				
+				
+				marker.setMap(map);
+				google.maps.event.addListener(marker, 'click', function() {
+					updateMarker(asukohad,this.getPosition());
+					infobox.open(map,this);
+				});
+			}
+		}); 
 	}
-		
+	
+	
 	
 	function updateMarker(asukohad,asukoht){
-	
+		
 		$.getJSON("tulemused", function(tulemus) {
 			erakonnad=[];	
 			piirkonnaindeks=-1;
@@ -236,7 +269,7 @@ function initializeGoogleMaps(){
 					piirkonnaindeks=i;
 				}
 			}
-						
+			
 			piirkond=piirkonnad[piirkonnaindeks];
 			erakonnad=erakonnadPiirkonnaj2rgi(tulemus,piirkond);
 			var suurimindeks=-1;
@@ -252,7 +285,7 @@ function initializeGoogleMaps(){
 			}
 			var boxText = document.createElement("div");
 			boxText.style.cssText = "border: 1px solid black; margin-top: 4px; background: lightblue; padding: 2px; word-wrap: break-word;";
-	
+			
 			if(erakonnad[suurimindeks]){
 				boxText.innerHTML = piirkond+"<br/>1."+erakonnad[suurimindeks].nimi+"<br/>hääli: "+
 				erakonnad[suurimindeks].haali+" - "+Math.round((erakonnad[suurimindeks].haali/haalikokku)*100)+"%";
@@ -263,5 +296,18 @@ function initializeGoogleMaps(){
 			infobox.setContent(boxText);
 		});
 		
+	}
+	
+	
+	legend=document.createElement("div");
+	legend.style.cssText="width: 110px; border: 1px solid black; background: white; padding: 2px;"
+	map.controls[google.maps.ControlPosition.RIGHT_BOTTOM].push(
+	  legend); 
+	for (var erakond in erakonnav2rvid) {
+	  var div = document.createElement('div');
+	  v2rv=erakonnav2rvid[erakond];
+	  icon='http://maps.google.com/mapfiles/ms/icons/'+v2rv+'-dot.png';
+	  div.innerHTML = '<img src="' + icon + '"> ' + erakond;
+	  legend.appendChild(div);
 	}
 }
