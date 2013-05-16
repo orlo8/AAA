@@ -6,13 +6,20 @@
   <!--
     Allows App Engine to send multiple requests to one instance in parallel:
   -->
+  <static-files>
+        <include path="/img/*" expiration="7d" />
+        <include path="/js/*" expiration="7d" />
+        <include path="/styles/*" expiration="7d" />
+        <include path="/favicon.ico" expiration="7d" />
+        <include path="/*.html" expiration="7d" />
+        
+    </static-files>
   <threadsafe>true</threadsafe>
 
   <!-- Configure java.util.logging -->
   <system-properties>
     <property name="java.util.logging.config.file" value="WEB-INF/logging.properties"/>
   </system-properties>
-
   <!--
     HTTP Sessions are disabled by default. To enable HTTP sessions specify:
 
